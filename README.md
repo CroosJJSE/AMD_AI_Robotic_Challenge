@@ -51,7 +51,7 @@ sudo apt install tigervnc-viewer
 ```
 Connect to the VNC Server:
 ```
-vncviewer 192.168.1.104 :1
+vncviewer 192.168.1.104:1
 ```
 
 
@@ -75,6 +75,34 @@ sudo -E firefox
 
 
 
+### sending c++ file to board  from host machine
+
+write the c++ code in input.cpp
+
+and source main.csh
+![alt text](images/image11.png)
 
 ### how to connect the web camera to the board
+connect the web camera to the upper right usb port of board,
+copy the check_camera.cpp to input.cpp,
+source main.csh
 
+in vnc,
+```
+cd /home/ubuntu/Ourtest
+./Ourtest
+```
+
+![alt text](images/image12.png)
+
+second time this is not working
+![alt text](images/image13.png)
+
+### lets try the capturing frames
+1st time success
+
+![alt text](images/image14.png)
+
+2nd time failure
+
+![alt text](images/image15.png)

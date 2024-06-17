@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Remove existing board log file
-rm -rf /home/subi/Documents/slam/board.log
+rm -rf /home/subi/codes/AMD_AI_Robotic_Challenge/board.log
 
 # Copy input.cpp from host to board
-sshpass -p 'password' scp -P 22 /home/subi/Documents/slam/input.cpp ubuntu@192.168.1.104:/home/ubuntu/OurTest/ > /dev/null 2>&1
+sshpass -p 'password' scp -P 22 /home/subi/codes/AMD_AI_Robotic_Challenge/input.cpp ubuntu@192.168.1.104:/home/ubuntu/OurTest/ > /dev/null 2>&1
 
 # SSH and Build Executable
 sshpass -p 'password' ssh -o StrictHostKeyChecking=no -T ubuntu@192.168.1.104 << 'EOF'
