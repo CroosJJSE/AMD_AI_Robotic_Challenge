@@ -7,7 +7,7 @@
 namespace fs = std::filesystem;  // Alias for filesystem namespace
 
 void captureFrames() {
-    cv::VideoCapture cap("/dev/video2"); // Open webcam device /dev/video3
+    cv::VideoCapture cap(0);  // Open webcam device /dev/video2
 
     if (!cap.isOpened()) {
         std::cerr << "Error opening webcam" << std::endl;
@@ -19,12 +19,10 @@ void captureFrames() {
     fs::remove_all(outputDir);
     fs::create_directory(outputDir);
 
-    int count = 0;
-    int frameRate = 1;  // Capture 1 frame per second
     int frameCount = 10;  // Capture 60 frames in total
-    int delay = 1000 / frameRate;  // Delay in milliseconds
+    int frameNumber = 1;
 
-    while (count < frameCount) {
+    while (frameNumber <= frameCount) {
         cv::Mat frame;
         cap >> frame;  // Capture frame from webcam
 
@@ -33,7 +31,7 @@ void captureFrames() {
             break;
         }
 
-        std::string filename = outputDir + "/frame_" + std::to_string(count + 1) + ".jpg";
+        std::string filename = outputDir + "/frame_" + std::to_string(frameNumber) + ".jpg";
         cv::imwrite(filename, frame);  // Save frame as image file
 
         std::cout << "Saved: " << filename << std::endl;
@@ -42,10 +40,10 @@ void captureFrames() {
         cv::imshow("Frame", frame);
         cv::waitKey(1);  // Wait for key press
 
-        count++;
+        frameNumber++;
 
-        // Delay to achieve 1 frame per second
-        std::this_thread::sleep_for(std::chrono::milliseconds(delay));
+        // Delay to capture one frame per second
+        std::this_thread::sleep_for(std::chrono::seconds(1));
     }
 
     cap.release();  // Release webcam
