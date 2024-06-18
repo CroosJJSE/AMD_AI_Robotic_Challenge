@@ -70,7 +70,12 @@ how to run the firefox
 ```
 xhost +local:$(whoami)
 sudo -E firefox
+
+#you can simply run ( automated )
+run_firefox
+
 ```
+
 ![alt text](images/image-10.png)
 
 
@@ -106,3 +111,22 @@ second time this is not working
 2nd time failure
 
 ![alt text](images/image15.png)
+
+
+
+## Installation of ROS2 is done
+```
+# set up your ROS2 environment
+source /opt/ros/humble/setup.bash
+# launch the turtle simulator
+ros2 run turtlesim turtlesim_node
+```
+
+it will open the following figure
+
+```
+ros2 run turtlesim turtle_teleop_key
+```
+can make the turtle move
+
+![alt text](images/image16.png)
