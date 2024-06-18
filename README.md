@@ -130,3 +130,34 @@ ros2 run turtlesim turtle_teleop_key
 can make the turtle move
 
 ![alt text](images/image16.png)
+
+
+
+## How to access the board using Web
+install DWS controll ( only in the board no need to download in host machine)
+```
+https://www.dwservice.net/en/download.html
+```
+
+go to the directory
+```
+chmod +x dwagent.sh
+./dwagent.sh
+```
+![alt text](images/image-18.png)
+
+after installation, run again.
+
+```
+./dwagent.sh
+```
+
+![alt text](images/image17.png)
+
+
+
+there you can find the user name and password
+```
+https://access.dwservice.net/login.dw?localeid=en#s
+```
+login using username and password
