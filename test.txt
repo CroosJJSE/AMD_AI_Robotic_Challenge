@@ -1,0 +1,11 @@
+hi,
+we are working for a competition called, AMD robotics AI appilication,
+we are given Kria KR260 board which is running on ubuntu based on ARM64,
+the task is to build a AI application and run it inside the ROS 2 wrapper, in the Kria KR260,
+i am assigned to test the board,
+we are planning to implement HFNET ( ORB slam) in the board which will use the camera,
+other team members are working in that,
+i have checked the camera and it is working fine,
+now i want to implement a smaller model(face recognition using webcam ) inside ros 2 in the board, and i dont know about the ros and ML, actually we have to cross compile to the c++ code to ARM64 ( those are done ) ,
+
+tell me how to do a implement a c++ based model which is using webcam, then i will cross compile it and, tell me how to itergrade with ros 2 and run in my board

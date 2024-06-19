@@ -11,7 +11,7 @@ public:
 
 int main() {
     MyClass myObject;
-    myObject.printMessage("Hello, cross-compiling!");
+    myObject.printMessage("Hello, hha cross-compiling!");
 
     return 0;
 }

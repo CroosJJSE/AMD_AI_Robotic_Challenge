@@ -2,3 +2,7 @@
 slambook-en (1).pdf
 
 *.pdf
+
+cross_compiling/g2o-master/
+
+cross_compiling/build/

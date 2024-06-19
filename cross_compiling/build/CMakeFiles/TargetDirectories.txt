@@ -1,3 +1,0 @@
-/home/subi/codes/AMD_AI_Robotic_Challenge/cross_compiling/build/CMakeFiles/MyProject.dir
-/home/subi/codes/AMD_AI_Robotic_Challenge/cross_compiling/build/CMakeFiles/edit_cache.dir
-/home/subi/codes/AMD_AI_Robotic_Challenge/cross_compiling/build/CMakeFiles/rebuild_cache.dir
