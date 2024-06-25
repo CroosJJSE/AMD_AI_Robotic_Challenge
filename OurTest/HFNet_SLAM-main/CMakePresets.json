@@ -1,0 +1,89 @@
+{
+  "version": 3,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 22,
+    "patch": 1
+  },
+  "configurePresets": [
+    {
+      "name": "default",
+      "hidden": true,
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build/${presetName}",
+      "cacheVariables": {
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "YES",
+        "CMAKE_INCLUDE_PATH": "/usr/include;/usr/local/include;/usr/include/opencv4"
+      }
+    },
+    {
+      "name": "debug-gcc",
+      "inherits": "default",
+      "description": "Debug build using GCC",
+      "binaryDir": "${sourceDir}/build/debug",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "CMAKE_C_COMPILER": "/usr/bin/gcc",
+        "CMAKE_CXX_COMPILER": "/usr/bin/g++"
+      }
+    },
+    {
+      "name": "release-gcc",
+      "inherits": "default",
+      "description": "Release build using GCC",
+      "binaryDir": "${sourceDir}/build/release",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "CMAKE_C_COMPILER": "/usr/bin/gcc",
+        "CMAKE_CXX_COMPILER": "/usr/bin/g++"
+      }
+    },
+    {
+      "name": "debug-msvc",
+      "inherits": "default",
+      "description": "Debug build using MSVC",
+      "binaryDir": "${sourceDir}/build/debug",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "CMAKE_C_COMPILER": "path/to/msvc/cl.exe",
+        "CMAKE_CXX_COMPILER": "path/to/msvc/cl.exe"
+      }
+    },
+    {
+      "name": "release-msvc",
+      "inherits": "default",
+      "description": "Release build using MSVC",
+      "binaryDir": "${sourceDir}/build/release",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "CMAKE_C_COMPILER": "path/to/msvc/cl.exe",
+        "CMAKE_CXX_COMPILER": "path/to/msvc/cl.exe"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "default",
+      "configurePreset": "default",
+      "jobs": 4
+    },
+    {
+      "name": "debug-gcc",
+      "configurePreset": "debug-gcc",
+      "jobs": 1
+    },
+    {
+      "name": "release-gcc",
+      "configurePreset": "release-gcc",
+      "jobs": 1
+    },
+    {
+      "name": "debug-msvc",
+      "configurePreset": "debug-msvc"
+    },
+    {
+      "name": "release-msvc",
+      "configurePreset": "release-msvc"
+    }
+  ]
+}

@@ -11,7 +11,7 @@ fi
 
 # Ask for the destination directory on the board
 read -p "Enter the destination directory on the board: " DEST_DIR
-
+/home/subi/codes/AMD_AI_Robotic_Challenge/sandeep_works/build
 # Set default destination directory if none is provided
 DEFAULT_DEST_DIR="/home/ubuntu/OurTest"
 if [ -z "$DEST_DIR" ]; then
