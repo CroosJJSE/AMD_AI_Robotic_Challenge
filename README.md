@@ -1,253 +1,257 @@
+
 # AMD_AI_Robotic_Challenge
-## Challenge overview
-AMD - Kria KR260 board
+
+## Challenge Overview
+
+### AMD - Kria KR260 Board
 ![Kria KR260 board](images/image-2.png)
-AI - using vitis AI and using the PYNQ
-robotic challenge - ROS 2 
 
+### AI - Using Vitis AI and PYNQ
+### Robotic Challenge - ROS 2
 
-### Booting ubuntu in the board
+## Booting Ubuntu on the Board
 
-###  Connecting the board to pc
-```
-sudo gtkterm
-```
-![congfiguration](images/image-3.png)
+### Connecting the Board to PC
 
-port may be vary depending on the port you connected with PC
+1. Open terminal and run:
+    ```bash
+    sudo gtkterm
+    ```
+    ![Configuration](images/image-3.png)
+    Port may vary depending on the port connected to the PC.
 
-connect all the ports to the board then connect to the power
+2. Connect all the ports to the board, then connect to the power. The board should be successfully connected.
+    ![Connection Success](images/image-4.png)
 
-connected successfully
-![alt text](images/image-4.png)
+3. Upgrade to the latest version:
+    ```bash
+    sudo apt update && sudo apt upgrade -y python
+    ```
+    ![Upgrade](images/image-5.png)
 
-upgrade to the latest version
-![alt text](images/image-5.png)
-```
-sudo apt update & sudo apt upgrade -y python
-```
+### Finding the IP Address of the Board
 
-we count not connect the monitor using the display port, we tried to connect using the remote desktop
- ### find the ip address of the board
- ```
-sudo ifconfig -a
- ```
-![IpAddress](images/image-6.png)
+1. Run:
+    ```bash
+    sudo ifconfig -a
+    ```
+    ![IP Address](images/image-6.png)
 
-### On the Kria KR260:
-```
-sudo apt update
-sudo apt install tightvncserver
-```
-```
-vncserver
-```
-You'll be prompted to set a password the first time you run it.
-### On the Host Machine:
+### Setting Up VNC Server on Kria KR260
 
-Install a VNC Viewer:
-```
-sudo apt install tigervnc-viewer
-```
-Connect to the VNC Server:
-```
-vncviewer 192.168.1.104:1
-```
+1. On the Kria KR260:
+    ```bash
+    sudo apt update
+    sudo apt install tightvncserver
+    vncserver
+    ```
+    You'll be prompted to set a password the first time you run it.
 
-### debugging information
-check the ip address of the board using
-``` 
+2. On the Host Machine:
+    ```bash
+    sudo apt install tigervnc-viewer
+    vncviewer 192.168.1.104:1
+    ```
+
+### Debugging Information
+
+Check the IP address of the board:
+```bash
 ifconfig -a
-#it should look like this: else reboot it
+# It should look like this, else reboot it:
 eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 192.168.1.104  netmask 255.255.255.0  broadcast 192.168.1.255
-#if not after reboot
+
+If not, after reboot:
+```bash
 vncserver
 ```
+Type the password to connect:
+![VNC Connection](images/image-7.png)
+Successfully connected to the VNC Server:
+![VNC Success](images/image-8.png)
 
-type the password to connect
+### Installing and Running Applications on the Board
 
-![alt text](images/image-7.png)
+- **VSCode Installation**:
+    ![VSCode](images/image-9.png)
 
+- **Running Firefox**:
+    ```bash
+    xhost +local:$(whoami)
+    sudo -E firefox
 
-successfully connect to the VNC Server
-![alt text](images/image-8.png)
+    # You can simply run (automated):
+    run_firefox
+    ```
+    ![Firefox](images/image-10.png)
 
-we installed the VScode in the board
-![alt text](images/image-9.png)
+### Sending C++ File to Board from Host Machine
 
-how to run the firefox
-```
-xhost +local:$(whoami)
-sudo -E firefox
+1. Write the C++ code in `input.cpp`.
+2. Source `main.csh`:
+    ![Source Main](images/image11.png)
 
-#you can simply run ( automated )
-run_firefox
+### Connecting the Web Camera to the Board
 
-```
+1. Connect the web camera to the upper right USB port of the board.
+2. Copy `check_camera.cpp` to `input.cpp`, source `main.csh`.
+3. In VNC, run:
+    ```bash
+    cd /home/ubuntu/Ourtest
+    ./Ourtest
+    ```
+    ![Camera Check](images/image12.png)
+    Note: The second time this may not work.
+    ![Second Attempt](images/image13.png)
 
-![alt text](images/image-10.png)
+### Capturing Frames
 
+1. First time success:
+    ![First Success](images/image14.png)
+2. Second time failure:
+    ![Second Failure](images/image15.png)
 
+## Installation of ROS2
 
-### sending c++ file to board  from host machine
+1. Set up your ROS2 environment:
+    ```bash
+    source /opt/ros/humble/setup.bash
+    ```
 
-write the c++ code in input.cpp
+2. Launch the turtle simulator:
+    ```bash
+    ros2 run turtlesim turtlesim_node
+    ```
 
-and source main.csh
-![alt text](images/image11.png)
+3. Control the turtle:
+    ```bash
+    ros2 run turtlesim turtle_teleop_key
+    ```
+    ![Turtle Sim](images/image16.png)
 
-### how to connect the web camera to the board
-connect the web camera to the upper right usb port of board,
-copy the check_camera.cpp to input.cpp,
-source main.csh
+## Accessing the Board Using Web
 
-in vnc,
-```
-cd /home/ubuntu/Ourtest
-./Ourtest
-```
+1. Install DWS control (only on the board):
+    ```bash
+    https://www.dwservice.net/en/download.html
+    ```
+2. Go to the directory:
+    ```bash
+    chmod +x dwagent.sh
+    ./dwagent.sh
+    ```
+    ![DWS Control](images/image-18.png)
+3. After installation, run again:
+    ```bash
+    ./dwagent.sh
+    ```
+    ![DWS Control](images/image17.png)
+4. Find the username and password, and login using:
+    ```bash
+    https://access.dwservice.net/login.dw?localeid=en#
+    ```
 
-![alt text](images/image12.png)
+## Face Recognition ROS 2 Package
 
-second time this is not working
-![alt text](images/image13.png)
+### Setup Instructions
 
-### lets try the capturing frames
-1st time success
+1. **Create ROS 2 Workspace**:
+    ```bash
+    mkdir -p ~/ros2_ws/src
+    cd ~/ros2_ws
+    source /opt/ros/humble/setup.bash
+    ```
 
-![alt text](images/image14.png)
+2. **Create Face Recognition Package**:
+    ```bash
+    cd ~/ros2_ws/src
+    ros2 pkg create --build-type ament_cmake face_recognition_pkg
+    ```
 
-2nd time failure
+3. **Implement Face Recognition Node**:
+    - Create `src` directory and write the face recognition node:
+        ```bash
+        cd ~/ros2_ws/src/face_recognition_pkg
+        mkdir src
+        cd src
+        code face_recognition_node.cpp
+        ```
+    - Paste the face recognition node code into `face_recognition_node.cpp`.
+    - Download Haar Cascade XML file:
+        ```bash
+        mkdir -p ~/ros2_ws/src/face_recognition_pkg/resources
+        cd ~/ros2_ws/src/face_recognition_pkg/resources
+        wget https://raw.githubusercontent.com/opencv/opencv/master/data/haarcascades/haarcascade_frontalface_default.xml
+        ```
 
-![alt text](images/image15.png)
+4. **Update CMakeLists.txt and package.xml**:
+    ```bash
+    cd ~/ros2_ws/src/face_recognition_pkg
+    code CMakeLists.txt
+    code package.xml
+    ```
+    Update the file from the repository.
 
+5. **Build the ROS 2 Workspace**:
+    ```bash
+    cd ~/ros2_ws
+    source /opt/ros/humble/setup.bash
+    colcon build --packages-select face_recognition_pkg
+    ```
 
+6. **Run the Face Recognition Node**:
+    ```bash
+    source ~/ros2_ws/install/setup.bash
+    ros2 run face_recognition_pkg face_recognition_node
+    ```
+    See the output:
+    ```bash
+    ros2 run image_view image_view --ros-args -r image:= /webcam/face_recognition
+    ```
+    ![Face Recognition](images/image18.png)
 
-## Installation of ROS2 is done
-```
-# set up your ROS2 environment
-source /opt/ros/humble/setup.bash
-# launch the turtle simulator
-ros2 run turtlesim turtlesim_node
-```
+## Running ORBSLAM3 on PC without ROS2
 
-it will open the following figure
+1. Download ORBSLAM3 from [GitHub](https://github.com/UZ-SLAMLab/ORB_SLAM3) and run using EuRoc Dataset:
+    ```bash
+    ./Examples/Monocular/mono_euroc ./Vocabulary/ORBvoc.txt Examples/Monocular/EuRoC.yaml /workspace/MH_01_easy Examples/Monocular/EuRoC_TimeStamps/MH01.txt
+    ```
+    ![ORBSLAM3](images/image-19.png)
 
-```
-ros2 run turtlesim turtle_teleop_key
-```
-can make the turtle move
-
-![alt text](images/image16.png)
-
-
-
-## How to access the board using Web
-install DWS controll ( only in the board no need to download in host machine)
-```
-https://www.dwservice.net/en/download.html
-```
-
-go to the directory
-```
-chmod +x dwagent.sh
-./dwagent.sh
-```
-![alt text](images/image-18.png)
-
-after installation, run again.
-
-```
-./dwagent.sh
-```
-
-![alt text](images/image17.png)
-
-
-
-there you can find the user name and password
-```
-https://access.dwservice.net/login.dw?localeid=en#s
-```
-login using username and password
-
-### Face Recognition ROS 2 Package
-install OpenCV make sure that ROS 2 Humble is working
-
-##### Setup Instructions
-
-##### 1. Create ROS 2 Workspace
-
-```
-mkdir -p ~/ros2_ws/src
-cd ~/ros2_ws
-source /opt/ros/humble/setup.bash
-```
-##### 2. Create Face Recognition Package
-```
-cd ~/ros2_ws/src
-ros2 pkg create --build-type ament_cmake face_recognition_pkg
-```
-
-#### 3. Implement Face Recognition Node
-##### 1. Create `src` directory and write the face recognition node:
-```
-cd ~/ros2_ws/src/face_recognition_pkg
-mkdir src
-cd src
-code face_recognition_node.cpp
-```
-##### 2.Paste the face recognition node code into `face_recognition_node.cpp`.
-##### 3.Download Haar Cascade XML file:
-```
-mkdir -p ~/ros2_ws/src/face_recognition_pkg/resources
-cd ~/ros2_ws/src/face_recognition_pkg/resources
-wget https://raw.githubusercontent.com/opencv/opencv/master/data/haarcascades/haarcascade_frontalface_default.xml
-```
-#### 4.Update CMakeLists.txt and package.xml
-```
-cd ~/ros2_ws/src/face_recognition_pkg
-code CMakeLists.txt
-code package.xml
-```
-update file from repository
-### 5. Build the ROS 2 Workspace
-```
-cd ~/ros2_ws
-source /opt/ros/humble/setup.bash
-colcon build --packages-select face_recognition_pkg
-```
-### 6. Run the Face Recognition Node
-```
-source ~/ros2_ws/install/setup.bash
-ros2 run face_recognition_pkg face_recognition_node
-```
-see the output
-```
-ros2 run image_view image_view --ros-ards -r image:= /webcam/face_recognition
-```
-![alt text](images/image18.png)
-
-
-
-
-
+2. Connect your mobile phone as the webcam to the PC to map your home. Create two new scripts in the `_ORBSLAM_no_ROS` folder.
+    - For compiling:
+        ```bash
+        g++ -c mono_phone.cc -o mono_phone.o \
+            -I/path_to_ORB_SLAM3 \
+            -I/path_to_ORB_SLAM3/include \
+            -I/path_to_ORB_SLAM3/include/CameraModels \
+            -I/path_to_ORB_SLAM3/eigen \
+            -I/path_to_ORB_SLAM3/Thirdparty/Sophus \
+            -I/path_to_ORB_SLAM3/Thirdparty/g2o \
+            -I/path_to_ORB_SLAM3/Thirdparty \
+            -I/path_to_opencv/include/opencv4 \
+            -O3 -march=native -std=c++14
+        ```
+    - For linking:
+        ```bash
+        g++ mono_phone.o -o mono_phone \
+            -L/path_to_ORB_SLAM3/lib \
+            -L/path_to_opencv/lib \
+            -lORB_SLAM3
+        ```
+        ![ORB SLAM3](images/image-20.png)
 
 ## Cross-Compiling for AArch64
-
-This project includes scripts for cross-compiling C++ code for the `aarch64` architecture on an `x86` host machine using `CMake`. Below are the steps to set up the environment, compile the project, and clean up the build directory.
 
 ### Prerequisites
 
 Ensure that the following tools are installed on your Ubuntu host machine:
-
 - CMake
 - gcc-aarch64-linux-gnu
 - g++-aarch64-linux-gnu
 
 You can install the cross-compiler toolchain using the following command:
-
 ```bash
 sudo apt-get update
 sudo apt-get install gcc-aarch64-linux-gnu g++-aarch64-linux-gnu
@@ -278,10 +282,11 @@ your_project/
 
 ### Usage
 
+
+
 #### 1. Configure and Cross-Compile the Project
 
 Run the `main.sh` script to configure and cross-compile the project:
-
 ```bash
 chmod +x main.sh
 ./main.sh
@@ -293,4 +298,6 @@ The script performs the following steps:
 3. Compiles the project.
 4. Moves the important `build/myproject` file to the parent directory.
 5. Cleans up the build directory by removing all other generated files.
+```
 
+You can copy the above content and paste it directly into your `README.md` file on GitHub.
