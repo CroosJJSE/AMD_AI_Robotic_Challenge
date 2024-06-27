@@ -230,6 +230,37 @@ ros2 run image_view image_view --ros-ards -r image:= /webcam/face_recognition
 ![alt text](images/image18.png)
 
 
+### running the ORBSLAM3 in PC without ROS2
+you can download the ORBSLAM3 from https://github.com/UZ-SLAMLab/ORB_SLAM3 and run the ORBSLAM3 using EuRoc Dataset, without any modifications
+```
+./Examples/Monocular/mono_euroc ./Vocabulary/ORBvoc.txt Examples/Monocular/EuRoC.yaml /workspace/MH_01_easy Examples/Monocular/EuRoC_TimeStamps/MH01.txt
+```
+![alt text](images/image-19.png)
+we connected our mobile phone as the webcam to the PC to map our home, we created two new scripts, check in the _ORBSLAM_no_ROS folder 
+#### for compiling
+```
+g++ -c mono_phone.cc -o mono_phone.o \
+    -I/path_to_ORB_SLAM3 \
+    -I/path_to_ORB_SLAM3/include \
+    -I/path_to_ORB_SLAM3/include/CameraModels \
+    -I/path_to_ORB_SLAM3/eigen \
+    -I/path_to_ORB_SLAM3/Thirdparty/Sophus \
+    -I/path_to_ORB_SLAM3/Thirdparty/g2o \
+    -I/path_to_ORB_SLAM3/Thirdparty \
+    -I/path_to_opencv/include/opencv4 \
+    -O3 -march=native -std=c++14
+
+
+```
+#### for linking
+```
+g++ mono_phone.o -o mono_phone \
+    -L/path_to_ORB_SLAM3/lib \
+    -L/path_to_opencv/lib \
+    -lORB_SLAM3
+
+```
+![alt text](images/image-20.png)
 
 
 

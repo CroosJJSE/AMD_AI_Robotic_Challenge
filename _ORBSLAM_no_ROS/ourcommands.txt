@@ -1,0 +1,6 @@
+compiling
+
+g++ -c mono_phone.cc -o mono_phone.o     -I/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3     -I/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include     -I/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/CameraModels     -I/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen     -I/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus     -I/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o     -I/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty     -I/usr/local/include/opencv4     -O3 -march=native -std=c++14
+
+linking
+g++ mono_phone.o -o mono_phone     -L/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/lib     -L/usr/local/lib     -lORB_SLAM3     -lopencv_core -lopencv_highgui -lopencv_imgproc -lopencv_videoio -lopencv_features2d     -lpangolin     -lpthread -lboost_system -lboost_filesystem     -lGL -lGLEW     -std=c++14
