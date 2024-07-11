@@ -86,6 +86,35 @@ Successfully connected to the VNC Server:
     ```
     ![Firefox](images/image-10.png)
 
+## Accessing the Board Using Web
+
+1. Install DWS control (only on the board):
+    ```bash
+    https://www.dwservice.net/en/download.html
+    ```
+
+    file will be downloaded in /root/Download ( you have to be su )
+2. Go to the directory:
+    ```bash
+    chmod +x dwagent.sh
+    ./dwagent.sh
+    ```
+
+    ![DWS Control](images/image-18.png)
+3. After installation, run again:
+    ```bash
+    ./dwagent.sh
+    ```
+4. Find the username and password, and login using:
+    ![DWS Control](images/image17.png)
+
+### how to access using internet connection
+
+```
+https://access.dwservice.net/login.dw?localeid=en#
+```
+use the username and password 
+
 ### Sending C++ File to Board from Host Machine
 
 1. Write the C++ code in `input.cpp`.
@@ -130,27 +159,6 @@ Successfully connected to the VNC Server:
     ```
     ![Turtle Sim](images/image16.png)
 
-## Accessing the Board Using Web
-
-1. Install DWS control (only on the board):
-    ```bash
-    https://www.dwservice.net/en/download.html
-    ```
-2. Go to the directory:
-    ```bash
-    chmod +x dwagent.sh
-    ./dwagent.sh
-    ```
-    ![DWS Control](images/image-18.png)
-3. After installation, run again:
-    ```bash
-    ./dwagent.sh
-    ```
-    ![DWS Control](images/image17.png)
-4. Find the username and password, and login using:
-    ```bash
-    https://access.dwservice.net/login.dw?localeid=en#
-    ```
 
 ## Face Recognition ROS 2 Package
 
@@ -252,7 +260,7 @@ Ensure that the following tools are installed on your Ubuntu host machine:
 - g++-aarch64-linux-gnu
 
 You can install the cross-compiler toolchain using the following command:
-```bash
+```
 sudo apt-get update
 sudo apt-get install gcc-aarch64-linux-gnu g++-aarch64-linux-gnu
 ```
