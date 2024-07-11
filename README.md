@@ -116,7 +116,13 @@ https://access.dwservice.net/login.dw?localeid=en#
 use the username and password 
  #### check theses things
  make sure that there is a file called update_repo.sh inside /home/ubuntu/OurTest/ is not using note editor make a file in the  /home/ubuntu/OurTest/ - you can copy from this_repo/basic_script/update_repo.sh
- 
+
+### How to share file using internet connection
+#### in your host machine
+put your file in **this_repo/kriaKR260Board/** run the **this_repo/basic_scripts/submit_changes.sh** this will submit your files to https://github.com/CroosJJSE/kriaKR260Board
+#### in board ( web terminal )
+just run the **update_repo.sh**
+
 
 ### Sending C++ File to Board from Host Machine
 
