@@ -122,7 +122,7 @@ use the username and password
 put your file in **this_repo/kriaKR260Board/** run the **this_repo/basic_scripts/submit_changes.sh** this will submit your files to https://github.com/CroosJJSE/kriaKR260Board
 #### in board ( web terminal )
 just run the **update_repo.sh**
-
+![alt text](images/image21.png)
 
 ### Sending C++ File to Board from Host Machine
 
