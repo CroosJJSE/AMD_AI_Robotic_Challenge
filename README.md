@@ -114,6 +114,9 @@ Successfully connected to the VNC Server:
 https://access.dwservice.net/login.dw?localeid=en#
 ```
 use the username and password 
+ #### check theses things
+ make sure that there is a file called update_repo.sh inside /home/ubuntu/OurTest/ is not using note editor make a file in the  /home/ubuntu/OurTest/ - you can copy from this_repo/basic_script/update_repo.sh
+ 
 
 ### Sending C++ File to Board from Host Machine
 
