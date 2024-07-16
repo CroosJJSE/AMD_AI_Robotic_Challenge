@@ -4,7 +4,7 @@
 read -p "Enter the source file path on the board: " SOURCE_FILE
 
 # Check if the source file exists on the board
-sshpass -p 'password' ssh -o StrictHostKeyChecking=no -T ubuntu@192.168.1.104 <<EOF
+sshpass -p 'pass1234' ssh -o StrictHostKeyChecking=no -T ubuntu@192.168.1.104 <<EOF
 if [ ! -f "$SOURCE_FILE" ]; then
     echo -e "\e[31mError: Source file does not exist on the board.\e[0m"
     exit 1
@@ -26,7 +26,7 @@ if [ ! -d "$DEST_DIR" ]; then
 fi
 
 # Copy the source file from the board to the destination directory on the host machine
-sshpass -p 'password' scp -P 22 ubuntu@192.168.1.104:"$SOURCE_FILE" "$DEST_DIR" > /dev/null 2>&1
+sshpass -p 'pass1234' scp -P 22 ubuntu@192.168.1.104:"$SOURCE_FILE" "$DEST_DIR" > /dev/null 2>&1
 
 # Check if the copy command was successful
 if [ $? -eq 0 ]; then

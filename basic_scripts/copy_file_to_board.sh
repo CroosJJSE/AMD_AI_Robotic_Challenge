@@ -11,7 +11,6 @@ fi
 
 # Ask for the destination directory on the board
 read -p "Enter the destination directory on the board: " DEST_DIR
-/home/subi/codes/AMD_AI_Robotic_Challenge/sandeep_works/build
 # Set default destination directory if none is provided
 DEFAULT_DEST_DIR="/home/ubuntu/OurTest"
 if [ -z "$DEST_DIR" ]; then
@@ -22,10 +21,10 @@ fi
 # Determine if the source is a file or directory
 if [ -d "$SOURCE_PATH" ]; then
     # Copy the source directory to the destination directory on the board
-    sshpass -p 'password' scp -r -P 22 "$SOURCE_PATH" ubuntu@192.168.1.104:"$DEST_DIR" > /dev/null 2>&1
+    sshpass -p 'pass1234' scp -r -P 22 "$SOURCE_PATH" ubuntu@192.168.1.104:"$DEST_DIR" > /dev/null 2>&1
 else
     # Copy the source file to the destination directory on the board
-    sshpass -p 'password' scp -P 22 "$SOURCE_PATH" ubuntu@192.168.1.104:"$DEST_DIR" > /dev/null 2>&1
+    sshpass -p 'pass1234' scp -P 22 "$SOURCE_PATH" ubuntu@192.168.1.104:"$DEST_DIR" > /dev/null 2>&1
 fi
 
 # Check if the copy command was successful
