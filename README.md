@@ -288,6 +288,44 @@ export LD_LIBRARY_PATH=/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/lib:$
 ![ORB SLAM3](images/image-20.png)
 
 
+
+## Running ORBSLAM3 on PC with ROS2
+copy the ros2_ws_ORBSLAM from the github repository
+### Create and navigate to your ROS2 workspace:
+```
+mkdir -p ~/ros2_ws/src
+cd ~/ros2_ws
+```
+```
+cd ~/ros2_ws
+colcon build --symlink-install
+```
+Update the video_feed_publisher_node by specifying the video feed URL
+
+Update the mono_phone_node.cpp file:
+
+Ensure the paths to the ORB-SLAM3 vocabulary file and settings file are correctly specified in the MonoPhoneNode class.
+```
+this->declare_parameter<std::string>("vocab_file", "/path/to/ORBvoc.txt");
+this->declare_parameter<std::string>("settings_file", "/path/to/phone_camera.yaml");
+```
+
+
+open two terminals source it in both of them
+```
+source ~/ros2_ws/install/setup.bash
+```
+to Launch the video feed publisher node in one terminal
+```
+ros2 run video_feed_node video_feed_node
+```
+Launch the ORB-SLAM3 processing node:
+```
+ros2 run orbslam3_node orbslam3_node --ros-args -p vocab_file:="/path/to/ORBvoc.txt" -p settings_file:="/path/to/phone_camera.yaml"
+```
+<video controls src="images/slam.mp4" title="slam using  ros2"></video>
+
+
 ## Cross-Compiling for AArch64
 
 ### Prerequisites
