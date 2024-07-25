@@ -323,9 +323,10 @@ Launch the ORB-SLAM3 processing node:
 ```
 ros2 run orbslam3_node orbslam3_node --ros-args -p vocab_file:="/path/to/ORBvoc.txt" -p settings_file:="/path/to/phone_camera.yaml"
 ```
-view the video file directly:
 
-![Video](https://github.com/CroosJJSE/AMD_AI_Robotic_Challenge/raw/main/images/slam.mp4)
+Watch the video demonstration of the video feed and SLAM processing:
+
+[![Watch the video](https://img.youtube.com/vi/VIDEO_ID/hqdefault.jpg)](https://github.com/CroosJJSE/AMD_AI_Robotic_Challenge/blob/main/images/slam.mp4)
 
 ## Cross-Compiling for AArch64
 
