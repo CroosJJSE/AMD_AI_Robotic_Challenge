@@ -234,10 +234,10 @@ just run the **update_repo.sh**
 
 make sure that you have the /workspace/MH_01_easy folder which has the EUROC dataset
 
-    ```bash
+```bash
     ./Examples/Monocular/mono_euroc ./Vocabulary/ORBvoc.txt Examples/Monocular/EuRoC.yaml /workspace/MH_01_easy Examples/Monocular/EuRoC_TimeStamps/MH01.txt
-    ```
-    ![ORBSLAM3](images/image-19.png)
+```
+![ORBSLAM3](images/image-19.png)
 
 2. Connect your mobile phone as the webcam to the PC to map your home. Create two new scripts in the `_ORBSLAM_no_ROS` folder.
     - For compiling:
