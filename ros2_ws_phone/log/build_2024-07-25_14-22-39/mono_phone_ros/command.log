@@ -1,0 +1,2 @@
+Invoking command in '/home/subi/ros2_ws/build/mono_phone_ros': /usr/bin/cmake /home/subi/ros2_ws/src/mono_phone_ros -DCMAKE_INSTALL_PREFIX=/home/subi/ros2_ws/install/mono_phone_ros
+Invoked command in '/home/subi/ros2_ws/build/mono_phone_ros' returned '1': /usr/bin/cmake /home/subi/ros2_ws/src/mono_phone_ros -DCMAKE_INSTALL_PREFIX=/home/subi/ros2_ws/install/mono_phone_ros

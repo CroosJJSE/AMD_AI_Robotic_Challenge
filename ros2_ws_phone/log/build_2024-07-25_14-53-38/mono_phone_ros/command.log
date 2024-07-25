@@ -1,0 +1,4 @@
+Invoking command in '/home/subi/ros2_ws/build/mono_phone_ros': /usr/bin/cmake --build /home/subi/ros2_ws/build/mono_phone_ros -- -j8 -l8
+Invoked command in '/home/subi/ros2_ws/build/mono_phone_ros' returned '0': /usr/bin/cmake --build /home/subi/ros2_ws/build/mono_phone_ros -- -j8 -l8
+Invoking command in '/home/subi/ros2_ws/build/mono_phone_ros': /usr/bin/cmake --install /home/subi/ros2_ws/build/mono_phone_ros
+Invoked command in '/home/subi/ros2_ws/build/mono_phone_ros' returned '0': /usr/bin/cmake --install /home/subi/ros2_ws/build/mono_phone_ros

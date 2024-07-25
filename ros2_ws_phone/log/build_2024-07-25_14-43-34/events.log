@@ -1,0 +1,709 @@
+[0.000000] (-) TimerEvent: {}
+[0.000375] (mono_phone_ros) JobQueued: {'identifier': 'mono_phone_ros', 'dependencies': OrderedDict()}
+[0.000401] (mono_phone_ros) JobStarted: {'identifier': 'mono_phone_ros'}
+[0.007264] (mono_phone_ros) JobProgress: {'identifier': 'mono_phone_ros', 'progress': 'cmake'}
+[0.007850] (mono_phone_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/subi/ros2_ws/src/mono_phone_ros', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/subi/ros2_ws/install/mono_phone_ros'], 'cwd': '/home/subi/ros2_ws/build/mono_phone_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'subi'), ('LC_TIME', 'en_GB.UTF-8'), ('ROS_PACKAGE_PATH', ':/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Examples/ROS'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/subi'), ('OLDPWD', '/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1283'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e405ea435c27c1aacaaa3c16669cfb81'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'subi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'subi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/subi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kobal:@/tmp/.ICE-unix/1283,unix/kobal:/tmp/.ICE-unix/1283'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9d852aa0_e8d4_4d51_ba50_eaf7c516c1eb'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.B1B7Q2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.742'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LC_MESSAGES', 'ta_IN.UTF-8'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/subi/ros2_ws/build/mono_phone_ros'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e405ea435c27c1aacaaa3c16669cfb81'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/subi/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.024450] (mono_phone_ros) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099802] (-) TimerEvent: {}
+[0.164848] (mono_phone_ros) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.199947] (-) TimerEvent: {}
+[0.220053] (mono_phone_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.225242] (mono_phone_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.232576] (mono_phone_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.241658] (mono_phone_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.254606] (mono_phone_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.300281] (-) TimerEvent: {}
+[0.303307] (mono_phone_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.304175] (mono_phone_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.400407] (-) TimerEvent: {}
+[0.408489] (mono_phone_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.500559] (-) TimerEvent: {}
+[0.542493] (mono_phone_ros) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.600695] (-) TimerEvent: {}
+[0.648628] (mono_phone_ros) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.700831] (-) TimerEvent: {}
+[0.758905] (mono_phone_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.771717] (mono_phone_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[0.772523] (mono_phone_ros) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[0.772709] (mono_phone_ros) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[0.772870] (mono_phone_ros) StderrLine: {'line': b'\n'}
+[0.772971] (mono_phone_ros) StderrLine: {'line': b'    CATKIN_INSTALL_INTO_PREFIX_ROOT\n'}
+[0.773068] (mono_phone_ros) StderrLine: {'line': b'\n'}
+[0.773162] (mono_phone_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[0.773256] (mono_phone_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/subi/ros2_ws/build/mono_phone_ros\n'}
+[0.780324] (mono_phone_ros) CommandEnded: {'returncode': 0}
+[0.781152] (mono_phone_ros) JobProgress: {'identifier': 'mono_phone_ros', 'progress': 'build'}
+[0.781797] (mono_phone_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/subi/ros2_ws/build/mono_phone_ros', '--', '-j8', '-l8'], 'cwd': '/home/subi/ros2_ws/build/mono_phone_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'subi'), ('LC_TIME', 'en_GB.UTF-8'), ('ROS_PACKAGE_PATH', ':/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Examples/ROS'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/subi'), ('OLDPWD', '/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1283'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e405ea435c27c1aacaaa3c16669cfb81'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'subi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'subi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/subi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kobal:@/tmp/.ICE-unix/1283,unix/kobal:/tmp/.ICE-unix/1283'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9d852aa0_e8d4_4d51_ba50_eaf7c516c1eb'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.B1B7Q2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.742'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LC_MESSAGES', 'ta_IN.UTF-8'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/subi/ros2_ws/build/mono_phone_ros'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e405ea435c27c1aacaaa3c16669cfb81'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/subi/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.800955] (-) TimerEvent: {}
+[0.828826] (mono_phone_ros) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/mono_phone_node.dir/src/mono_phone_node.cpp.o\x1b[0m\n'}
+[0.901090] (-) TimerEvent: {}
+[1.001500] (-) TimerEvent: {}
+[1.101919] (-) TimerEvent: {}
+[1.202287] (-) TimerEvent: {}
+[1.302665] (-) TimerEvent: {}
+[1.403048] (-) TimerEvent: {}
+[1.503693] (-) TimerEvent: {}
+[1.604147] (-) TimerEvent: {}
+[1.704585] (-) TimerEvent: {}
+[1.805005] (-) TimerEvent: {}
+[1.905436] (-) TimerEvent: {}
+[2.005860] (-) TimerEvent: {}
+[2.106290] (-) TimerEvent: {}
+[2.206695] (-) TimerEvent: {}
+[2.307058] (-) TimerEvent: {}
+[2.407446] (-) TimerEvent: {}
+[2.507880] (-) TimerEvent: {}
+[2.608368] (-) TimerEvent: {}
+[2.708806] (-) TimerEvent: {}
+[2.809229] (-) TimerEvent: {}
+[2.909659] (-) TimerEvent: {}
+[3.010087] (-) TimerEvent: {}
+[3.110525] (-) TimerEvent: {}
+[3.210931] (-) TimerEvent: {}
+[3.311317] (-) TimerEvent: {}
+[3.411763] (-) TimerEvent: {}
+[3.512223] (-) TimerEvent: {}
+[3.612649] (-) TimerEvent: {}
+[3.713068] (-) TimerEvent: {}
+[3.813494] (-) TimerEvent: {}
+[3.913918] (-) TimerEvent: {}
+[4.014346] (-) TimerEvent: {}
+[4.114772] (-) TimerEvent: {}
+[4.215442] (-) TimerEvent: {}
+[4.315905] (-) TimerEvent: {}
+[4.416358] (-) TimerEvent: {}
+[4.516799] (-) TimerEvent: {}
+[4.617221] (-) TimerEvent: {}
+[4.717644] (-) TimerEvent: {}
+[4.818075] (-) TimerEvent: {}
+[4.918503] (-) TimerEvent: {}
+[4.938058] (mono_phone_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[4.938328] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.938479] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.938613] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.938752] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.938882] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.939011] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.939147] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.939277] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.939415] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/mono_phone_ros/src/mono_phone_node.cpp:6\x1b[m\x1b[K:\n'}
+[4.939545] (mono_phone_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.939685] (mono_phone_ros) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & \x1b[01;35m\x1b[KAlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[4.939824] (mono_phone_ros) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.940002] (mono_phone_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/Core:166\x1b[m\x1b[K,\n'}
+[4.940147] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[4.940295] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[4.940427] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[4.940565] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[4.940698] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[4.940836] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.940965] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.941097] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.941234] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.941381] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.941520] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.941651] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/mono_phone_ros/src/mono_phone_node.cpp:6\x1b[m\x1b[K:\n'}
+[4.941783] (mono_phone_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/src/Core/util/Constants.h:171:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.941921] (mono_phone_ros) StderrLine: {'line': b'  171 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.942054] (mono_phone_ros) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.957896] (mono_phone_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[4.958198] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.958350] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.958495] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.958625] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.958790] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.958935] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.959067] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.959202] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.959331] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/mono_phone_ros/src/mono_phone_node.cpp:6\x1b[m\x1b[K:\n'}
+[4.959460] (mono_phone_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:82:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.959579] (mono_phone_ros) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & \x1b[01;35m\x1b[KAlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[4.959676] (mono_phone_ros) StderrLine: {'line': b'      |                                                                                  \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.959771] (mono_phone_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/Core:166\x1b[m\x1b[K,\n'}
+[4.959868] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[4.959975] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[4.960077] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[4.960187] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[4.960284] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[4.960380] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.960475] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.960573] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.960668] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.960761] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.960856] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.960951] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/mono_phone_ros/src/mono_phone_node.cpp:6\x1b[m\x1b[K:\n'}
+[4.961045] (mono_phone_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/src/Core/util/Constants.h:171:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.961151] (mono_phone_ros) StderrLine: {'line': b'  171 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.961259] (mono_phone_ros) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.961353] (mono_phone_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[4.961449] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.961543] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.961683] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.961795] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.961891] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.961988] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.962082] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.962179] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.962272] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/mono_phone_ros/src/mono_phone_node.cpp:6\x1b[m\x1b[K:\n'}
+[4.962383] (mono_phone_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:82:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.962483] (mono_phone_ros) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & \x1b[01;35m\x1b[KAlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[4.962581] (mono_phone_ros) StderrLine: {'line': b'      |                                                                                  \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.962679] (mono_phone_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/Core:166\x1b[m\x1b[K,\n'}
+[4.962773] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[4.962870] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[4.962963] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[4.963061] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[4.963156] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[4.963260] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.963367] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.963462] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.963559] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.963653] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.963750] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.963844] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/mono_phone_ros/src/mono_phone_node.cpp:6\x1b[m\x1b[K:\n'}
+[4.963938] (mono_phone_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/src/Core/util/Constants.h:171:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.964051] (mono_phone_ros) StderrLine: {'line': b'  171 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.964151] (mono_phone_ros) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.018628] (-) TimerEvent: {}
+[5.119033] (-) TimerEvent: {}
+[5.219464] (-) TimerEvent: {}
+[5.319885] (-) TimerEvent: {}
+[5.320484] (mono_phone_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[5.320745] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[5.320895] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[5.321034] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[5.321196] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[5.321333] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[5.321463] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[5.321596] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[5.321728] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[5.321856] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/mono_phone_ros/src/mono_phone_node.cpp:6\x1b[m\x1b[K:\n'}
+[5.321993] (mono_phone_ros) StderrLine: {'line': b'/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseVertex<3, Eigen::Matrix<double, 3, 1> >\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.322127] (mono_phone_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_sba.h:40:35:\x1b[m\x1b[K   required from here\n'}
+[5.322275] (mono_phone_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.322430] (mono_phone_ros) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[5.322564] (mono_phone_ros) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.322695] (mono_phone_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/Core:166\x1b[m\x1b[K,\n'}
+[5.322825] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[5.322956] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[5.323089] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[5.323218] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[5.323355] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[5.323497] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[5.323627] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[5.323759] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[5.323888] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[5.324049] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[5.324191] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[5.324321] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/mono_phone_ros/src/mono_phone_node.cpp:6\x1b[m\x1b[K:\n'}
+[5.324453] (mono_phone_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/src/Core/util/Constants.h:171:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.324583] (mono_phone_ros) StderrLine: {'line': b'  171 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[5.324711] (mono_phone_ros) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.344882] (mono_phone_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[5.345137] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[5.345308] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[5.345448] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[5.345578] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[5.345708] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[5.345844] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[5.345990] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[5.346122] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[5.346253] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/mono_phone_ros/src/mono_phone_node.cpp:6\x1b[m\x1b[K:\n'}
+[5.346383] (mono_phone_ros) StderrLine: {'line': b'/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseVertex<6, g2o::SE3Quat>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.346534] (mono_phone_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:59:33:\x1b[m\x1b[K   required from here\n'}
+[5.346667] (mono_phone_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.346803] (mono_phone_ros) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[5.346963] (mono_phone_ros) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.347090] (mono_phone_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/Core:166\x1b[m\x1b[K,\n'}
+[5.347214] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[5.347338] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[5.347463] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[5.347585] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[5.347711] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[5.348119] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[5.348287] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[5.348418] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[5.348545] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[5.348680] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[5.348803] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[5.348928] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/mono_phone_ros/src/mono_phone_node.cpp:6\x1b[m\x1b[K:\n'}
+[5.349055] (mono_phone_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/src/Core/util/Constants.h:171:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.349181] (mono_phone_ros) StderrLine: {'line': b'  171 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[5.349310] (mono_phone_ros) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.372234] (mono_phone_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[5.372532] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[5.372680] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[5.372819] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[5.372957] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[5.373088] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[5.373227] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[5.373357] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[5.373491] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[5.373649] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/mono_phone_ros/src/mono_phone_node.cpp:6\x1b[m\x1b[K:\n'}
+[5.373785] (mono_phone_ros) StderrLine: {'line': b'/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<6, g2o::SE3Quat, g2o::VertexSE3Expmap, g2o::VertexSE3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.373920] (mono_phone_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:83:24:\x1b[m\x1b[K   required from here\n'}
+[5.374056] (mono_phone_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.374215] (mono_phone_ros) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[5.374349] (mono_phone_ros) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.374479] (mono_phone_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/Core:166\x1b[m\x1b[K,\n'}
+[5.374632] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[5.374763] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[5.374897] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[5.375029] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[5.375159] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[5.375310] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[5.375444] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[5.375579] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[5.375712] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[5.375843] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[5.376047] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[5.376193] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/mono_phone_ros/src/mono_phone_node.cpp:6\x1b[m\x1b[K:\n'}
+[5.376326] (mono_phone_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/src/Core/util/Constants.h:171:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.376462] (mono_phone_ros) StderrLine: {'line': b'  171 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[5.376597] (mono_phone_ros) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.376726] (mono_phone_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[5.376862] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[5.377070] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[5.377222] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[5.377350] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[5.377485] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[5.377614] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[5.377748] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[5.377883] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[5.378017] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/mono_phone_ros/src/mono_phone_node.cpp:6\x1b[m\x1b[K:\n'}
+[5.378151] (mono_phone_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.378302] (mono_phone_ros) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[5.378435] (mono_phone_ros) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.378571] (mono_phone_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/Core:166\x1b[m\x1b[K,\n'}
+[5.378706] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[5.378846] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[5.378977] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[5.379110] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[5.379245] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[5.379389] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[5.379524] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[5.379666] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[5.379796] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[5.379926] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[5.380088] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[5.380219] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/mono_phone_ros/src/mono_phone_node.cpp:6\x1b[m\x1b[K:\n'}
+[5.380347] (mono_phone_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/src/Core/util/Constants.h:171:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.380480] (mono_phone_ros) StderrLine: {'line': b'  171 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[5.380610] (mono_phone_ros) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.420045] (-) TimerEvent: {}
+[5.436716] (mono_phone_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[5.436977] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[5.437129] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[5.437271] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[5.437404] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[5.437537] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[5.437674] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[5.437803] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[5.437939] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[5.438073] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/mono_phone_ros/src/mono_phone_node.cpp:6\x1b[m\x1b[K:\n'}
+[5.438202] (mono_phone_ros) StderrLine: {'line': b'/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.438343] (mono_phone_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:114:35:\x1b[m\x1b[K   required from here\n'}
+[5.438477] (mono_phone_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.438656] (mono_phone_ros) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[5.438801] (mono_phone_ros) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.438952] (mono_phone_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/Core:166\x1b[m\x1b[K,\n'}
+[5.439082] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[5.439211] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[5.439342] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[5.439478] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[5.439609] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[5.439746] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[5.439899] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[5.440061] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[5.440197] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[5.440326] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[5.440455] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[5.440585] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/mono_phone_ros/src/mono_phone_node.cpp:6\x1b[m\x1b[K:\n'}
+[5.440717] (mono_phone_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/src/Core/util/Constants.h:171:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.440859] (mono_phone_ros) StderrLine: {'line': b'  171 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[5.440991] (mono_phone_ros) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.450395] (mono_phone_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[5.450737] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[5.450888] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[5.451021] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[5.451152] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[5.451283] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[5.451406] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[5.451578] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[5.451719] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[5.451845] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/mono_phone_ros/src/mono_phone_node.cpp:6\x1b[m\x1b[K:\n'}
+[5.451993] (mono_phone_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.452147] (mono_phone_ros) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[5.452277] (mono_phone_ros) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.452402] (mono_phone_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/Core:166\x1b[m\x1b[K,\n'}
+[5.452528] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[5.452670] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[5.452796] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[5.452929] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[5.453063] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[5.453192] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[5.453320] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[5.453444] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[5.453568] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[5.453706] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[5.453832] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[5.453970] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/mono_phone_ros/src/mono_phone_node.cpp:6\x1b[m\x1b[K:\n'}
+[5.454094] (mono_phone_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/src/Core/util/Constants.h:171:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.454234] (mono_phone_ros) StderrLine: {'line': b'  171 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[5.454359] (mono_phone_ros) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.503017] (mono_phone_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[5.503309] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[5.503455] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[5.503597] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[5.503737] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[5.503868] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[5.504025] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[5.504166] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[5.504296] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[5.504433] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/mono_phone_ros/src/mono_phone_node.cpp:6\x1b[m\x1b[K:\n'}
+[5.504565] (mono_phone_ros) StderrLine: {'line': b'/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<3, Eigen::Matrix<double, 3, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.504707] (mono_phone_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:146:41:\x1b[m\x1b[K   required from here\n'}
+[5.504838] (mono_phone_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.504983] (mono_phone_ros) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[5.505122] (mono_phone_ros) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.505257] (mono_phone_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/Core:166\x1b[m\x1b[K,\n'}
+[5.505391] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[5.505520] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[5.505679] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[5.505824] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[5.505958] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[5.506092] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[5.506222] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[5.506356] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[5.506503] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[5.506641] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[5.506776] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[5.506906] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/mono_phone_ros/src/mono_phone_node.cpp:6\x1b[m\x1b[K:\n'}
+[5.507035] (mono_phone_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/src/Core/util/Constants.h:171:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.507181] (mono_phone_ros) StderrLine: {'line': b'  171 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[5.507312] (mono_phone_ros) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.507440] (mono_phone_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[5.507570] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[5.507700] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[5.507832] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[5.507972] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[5.508112] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[5.508243] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[5.508373] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[5.508501] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[5.508636] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/mono_phone_ros/src/mono_phone_node.cpp:6\x1b[m\x1b[K:\n'}
+[5.508780] (mono_phone_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.508916] (mono_phone_ros) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[5.509048] (mono_phone_ros) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.509180] (mono_phone_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/Core:166\x1b[m\x1b[K,\n'}
+[5.509308] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[5.509438] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[5.509569] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[5.509699] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[5.509828] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[5.509957] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[5.510085] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[5.510215] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[5.510362] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[5.510493] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[5.510621] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[5.510762] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/mono_phone_ros/src/mono_phone_node.cpp:6\x1b[m\x1b[K:\n'}
+[5.510893] (mono_phone_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/src/Core/util/Constants.h:171:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.511022] (mono_phone_ros) StderrLine: {'line': b'  171 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[5.511152] (mono_phone_ros) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.520133] (-) TimerEvent: {}
+[5.620510] (-) TimerEvent: {}
+[5.688997] (mono_phone_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[5.689306] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[5.689483] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[5.689658] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[5.689790] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[5.689922] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[5.690054] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[5.690182] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[5.690311] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[5.690440] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/mono_phone_ros/src/mono_phone_node.cpp:6\x1b[m\x1b[K:\n'}
+[5.690571] (mono_phone_ros) StderrLine: {'line': b'/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseVertex<7, g2o::Sim3>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.690713] (mono_phone_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:48:35:\x1b[m\x1b[K   required from here\n'}
+[5.690856] (mono_phone_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.690983] (mono_phone_ros) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[5.691080] (mono_phone_ros) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.691177] (mono_phone_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/Core:166\x1b[m\x1b[K,\n'}
+[5.691273] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[5.691367] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[5.691466] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[5.691562] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[5.691662] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[5.691757] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[5.691867] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[5.691980] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[5.692080] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[5.692174] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[5.692281] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[5.692386] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/mono_phone_ros/src/mono_phone_node.cpp:6\x1b[m\x1b[K:\n'}
+[5.692486] (mono_phone_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/src/Core/util/Constants.h:171:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.692581] (mono_phone_ros) StderrLine: {'line': b'  171 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[5.692678] (mono_phone_ros) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.716750] (mono_phone_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[5.717041] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[5.717196] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[5.717342] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[5.717478] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[5.717615] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[5.717778] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[5.717909] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[5.718037] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[5.718165] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/mono_phone_ros/src/mono_phone_node.cpp:6\x1b[m\x1b[K:\n'}
+[5.718292] (mono_phone_ros) StderrLine: {'line': b'/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<7, g2o::Sim3, g2o::VertexSim3Expmap, g2o::VertexSim3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.718425] (mono_phone_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:99:27:\x1b[m\x1b[K   required from here\n'}
+[5.718563] (mono_phone_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.718720] (mono_phone_ros) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[5.718850] (mono_phone_ros) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.718985] (mono_phone_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/Core:166\x1b[m\x1b[K,\n'}
+[5.719126] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[5.719262] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[5.719394] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[5.719528] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[5.719661] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[5.719792] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[5.719926] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[5.720084] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[5.720219] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[5.720359] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[5.720501] (-) TimerEvent: {}
+[5.720675] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[5.720838] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/mono_phone_ros/src/mono_phone_node.cpp:6\x1b[m\x1b[K:\n'}
+[5.720987] (mono_phone_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/src/Core/util/Constants.h:171:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.721126] (mono_phone_ros) StderrLine: {'line': b'  171 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[5.721257] (mono_phone_ros) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.721388] (mono_phone_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[5.721520] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[5.721653] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[5.721800] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[5.721933] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[5.722067] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[5.722197] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[5.722330] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[5.722474] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[5.722605] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/mono_phone_ros/src/mono_phone_node.cpp:6\x1b[m\x1b[K:\n'}
+[5.722734] (mono_phone_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.722872] (mono_phone_ros) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[5.723002] (mono_phone_ros) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.723132] (mono_phone_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/Core:166\x1b[m\x1b[K,\n'}
+[5.723260] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[5.723388] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[5.723517] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[5.723647] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[5.723777] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[5.723906] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[5.724054] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[5.724186] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[5.724316] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[5.724444] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[5.724590] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[5.724720] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/mono_phone_ros/src/mono_phone_node.cpp:6\x1b[m\x1b[K:\n'}
+[5.724849] (mono_phone_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/src/Core/util/Constants.h:171:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.724992] (mono_phone_ros) StderrLine: {'line': b'  171 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[5.725123] (mono_phone_ros) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.757851] (mono_phone_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[5.758145] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[5.758328] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[5.758468] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[5.758604] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[5.758742] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[5.758870] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[5.759005] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[5.759134] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[5.759263] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/mono_phone_ros/src/mono_phone_node.cpp:6\x1b[m\x1b[K:\n'}
+[5.759396] (mono_phone_ros) StderrLine: {'line': b'/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSim3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.759531] (mono_phone_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:130:36:\x1b[m\x1b[K   required from here\n'}
+[5.759681] (mono_phone_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.759829] (mono_phone_ros) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[5.759977] (mono_phone_ros) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.760144] (mono_phone_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/Core:166\x1b[m\x1b[K,\n'}
+[5.760281] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[5.760411] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[5.760539] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[5.760669] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[5.760799] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[5.760933] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[5.761065] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[5.761199] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[5.761328] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[5.761461] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[5.761599] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[5.761734] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/mono_phone_ros/src/mono_phone_node.cpp:6\x1b[m\x1b[K:\n'}
+[5.761882] (mono_phone_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/src/Core/util/Constants.h:171:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.762016] (mono_phone_ros) StderrLine: {'line': b'  171 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[5.762148] (mono_phone_ros) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.771628] (mono_phone_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[5.771857] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[5.772025] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[5.772172] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[5.772334] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[5.772471] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[5.772605] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[5.772761] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[5.772891] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[5.773019] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/mono_phone_ros/src/mono_phone_node.cpp:6\x1b[m\x1b[K:\n'}
+[5.773154] (mono_phone_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.773295] (mono_phone_ros) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[5.773454] (mono_phone_ros) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.773584] (mono_phone_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/Core:166\x1b[m\x1b[K,\n'}
+[5.773713] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[5.773840] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[5.773968] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[5.774099] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[5.774235] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[5.774370] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[5.774507] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[5.774637] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[5.774774] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[5.774908] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[5.775039] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[5.775171] (mono_phone_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/mono_phone_ros/src/mono_phone_node.cpp:6\x1b[m\x1b[K:\n'}
+[5.775305] (mono_phone_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/src/Core/util/Constants.h:171:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.775452] (mono_phone_ros) StderrLine: {'line': b'  171 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[5.775582] (mono_phone_ros) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.820663] (-) TimerEvent: {}
+[5.921116] (-) TimerEvent: {}
+[6.021534] (-) TimerEvent: {}
+[6.121912] (-) TimerEvent: {}
+[6.222337] (-) TimerEvent: {}
+[6.322752] (-) TimerEvent: {}
+[6.423150] (-) TimerEvent: {}
+[6.523545] (-) TimerEvent: {}
+[6.624194] (-) TimerEvent: {}
+[6.724619] (-) TimerEvent: {}
+[6.825041] (-) TimerEvent: {}
+[6.925676] (-) TimerEvent: {}
+[7.026098] (-) TimerEvent: {}
+[7.126527] (-) TimerEvent: {}
+[7.226923] (-) TimerEvent: {}
+[7.327347] (-) TimerEvent: {}
+[7.427770] (-) TimerEvent: {}
+[7.528220] (-) TimerEvent: {}
+[7.628670] (-) TimerEvent: {}
+[7.729105] (-) TimerEvent: {}
+[7.829527] (-) TimerEvent: {}
+[7.929936] (-) TimerEvent: {}
+[8.030323] (-) TimerEvent: {}
+[8.130747] (-) TimerEvent: {}
+[8.231166] (-) TimerEvent: {}
+[8.331540] (-) TimerEvent: {}
+[8.431931] (-) TimerEvent: {}
+[8.532351] (-) TimerEvent: {}
+[8.632762] (-) TimerEvent: {}
+[8.733184] (-) TimerEvent: {}
+[8.833602] (-) TimerEvent: {}
+[8.934033] (-) TimerEvent: {}
+[9.034451] (-) TimerEvent: {}
+[9.134873] (-) TimerEvent: {}
+[9.235289] (-) TimerEvent: {}
+[9.335710] (-) TimerEvent: {}
+[9.436417] (-) TimerEvent: {}
+[9.536835] (-) TimerEvent: {}
+[9.637262] (-) TimerEvent: {}
+[9.737664] (-) TimerEvent: {}
+[9.838037] (-) TimerEvent: {}
+[9.938467] (-) TimerEvent: {}
+[10.038886] (-) TimerEvent: {}
+[10.139863] (-) TimerEvent: {}
+[10.240313] (-) TimerEvent: {}
+[10.340686] (-) TimerEvent: {}
+[10.441053] (-) TimerEvent: {}
+[10.541441] (-) TimerEvent: {}
+[10.642009] (-) TimerEvent: {}
+[10.742390] (-) TimerEvent: {}
+[10.842776] (-) TimerEvent: {}
+[10.943130] (-) TimerEvent: {}
+[11.043495] (-) TimerEvent: {}
+[11.143890] (-) TimerEvent: {}
+[11.244355] (-) TimerEvent: {}
+[11.344803] (-) TimerEvent: {}
+[11.445229] (-) TimerEvent: {}
+[11.545649] (-) TimerEvent: {}
+[11.646067] (-) TimerEvent: {}
+[11.746485] (-) TimerEvent: {}
+[11.846901] (-) TimerEvent: {}
+[11.947331] (-) TimerEvent: {}
+[12.047751] (-) TimerEvent: {}
+[12.148188] (-) TimerEvent: {}
+[12.248614] (-) TimerEvent: {}
+[12.349037] (-) TimerEvent: {}
+[12.449473] (-) TimerEvent: {}
+[12.549923] (-) TimerEvent: {}
+[12.650342] (-) TimerEvent: {}
+[12.750762] (-) TimerEvent: {}
+[12.851171] (-) TimerEvent: {}
+[12.951642] (-) TimerEvent: {}
+[13.052070] (-) TimerEvent: {}
+[13.152496] (-) TimerEvent: {}
+[13.252927] (-) TimerEvent: {}
+[13.353345] (-) TimerEvent: {}
+[13.453768] (-) TimerEvent: {}
+[13.554191] (-) TimerEvent: {}
+[13.654611] (-) TimerEvent: {}
+[13.755031] (-) TimerEvent: {}
+[13.855451] (-) TimerEvent: {}
+[13.955879] (-) TimerEvent: {}
+[14.056333] (-) TimerEvent: {}
+[14.156751] (-) TimerEvent: {}
+[14.257178] (-) TimerEvent: {}
+[14.357594] (-) TimerEvent: {}
+[14.458006] (-) TimerEvent: {}
+[14.558427] (-) TimerEvent: {}
+[14.658833] (-) TimerEvent: {}
+[14.759231] (-) TimerEvent: {}
+[14.859650] (-) TimerEvent: {}
+[14.960073] (-) TimerEvent: {}
+[15.060497] (-) TimerEvent: {}
+[15.160925] (-) TimerEvent: {}
+[15.261366] (-) TimerEvent: {}
+[15.361952] (-) TimerEvent: {}
+[15.462447] (-) TimerEvent: {}
+[15.562899] (-) TimerEvent: {}
+[15.663306] (-) TimerEvent: {}
+[15.704009] (mono_phone_ros) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable mono_phone_node\x1b[0m\n'}
+[15.763453] (-) TimerEvent: {}
+[15.863884] (-) TimerEvent: {}
+[15.964357] (-) TimerEvent: {}
+[16.064861] (-) TimerEvent: {}
+[16.165332] (-) TimerEvent: {}
+[16.265784] (-) TimerEvent: {}
+[16.366289] (-) TimerEvent: {}
+[16.428047] (mono_phone_ros) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.410\n'}
+[16.429061] (mono_phone_ros) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.410\n'}
+[16.466440] (-) TimerEvent: {}
+[16.566875] (-) TimerEvent: {}
+[16.667278] (-) TimerEvent: {}
+[16.767850] (-) TimerEvent: {}
+[16.868359] (-) TimerEvent: {}
+[16.968763] (-) TimerEvent: {}
+[17.014182] (mono_phone_ros) StdoutLine: {'line': b'[100%] Built target mono_phone_node\n'}
+[17.026750] (mono_phone_ros) CommandEnded: {'returncode': 0}
+[17.068921] (-) TimerEvent: {}
+[17.085393] (mono_phone_ros) JobProgress: {'identifier': 'mono_phone_ros', 'progress': 'install'}
+[17.094095] (mono_phone_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/subi/ros2_ws/build/mono_phone_ros'], 'cwd': '/home/subi/ros2_ws/build/mono_phone_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'subi'), ('LC_TIME', 'en_GB.UTF-8'), ('ROS_PACKAGE_PATH', ':/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Examples/ROS'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/subi'), ('OLDPWD', '/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1283'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e405ea435c27c1aacaaa3c16669cfb81'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'subi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'subi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/subi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kobal:@/tmp/.ICE-unix/1283,unix/kobal:/tmp/.ICE-unix/1283'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9d852aa0_e8d4_4d51_ba50_eaf7c516c1eb'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.B1B7Q2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.742'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LC_MESSAGES', 'ta_IN.UTF-8'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/subi/ros2_ws/build/mono_phone_ros'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e405ea435c27c1aacaaa3c16669cfb81'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/subi/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[17.102349] (mono_phone_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.102720] (mono_phone_ros) StdoutLine: {'line': b'-- Installing: /home/subi/ros2_ws/install/mono_phone_ros/lib/mono_phone_ros/mono_phone_node\n'}
+[17.106442] (mono_phone_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/subi/ros2_ws/install/mono_phone_ros/lib/mono_phone_ros/mono_phone_node" to ""\n'}
+[17.106793] (mono_phone_ros) StdoutLine: {'line': b'-- Installing: /home/subi/ros2_ws/install/mono_phone_ros/share/ament_index/resource_index/package_run_dependencies/mono_phone_ros\n'}
+[17.107087] (mono_phone_ros) StdoutLine: {'line': b'-- Installing: /home/subi/ros2_ws/install/mono_phone_ros/share/ament_index/resource_index/parent_prefix_path/mono_phone_ros\n'}
+[17.107323] (mono_phone_ros) StdoutLine: {'line': b'-- Installing: /home/subi/ros2_ws/install/mono_phone_ros/share/mono_phone_ros/environment/ament_prefix_path.sh\n'}
+[17.107554] (mono_phone_ros) StdoutLine: {'line': b'-- Installing: /home/subi/ros2_ws/install/mono_phone_ros/share/mono_phone_ros/environment/ament_prefix_path.dsv\n'}
+[17.107757] (mono_phone_ros) StdoutLine: {'line': b'-- Installing: /home/subi/ros2_ws/install/mono_phone_ros/share/mono_phone_ros/environment/path.sh\n'}
+[17.107820] (mono_phone_ros) StdoutLine: {'line': b'-- Installing: /home/subi/ros2_ws/install/mono_phone_ros/share/mono_phone_ros/environment/path.dsv\n'}
+[17.107870] (mono_phone_ros) StdoutLine: {'line': b'-- Installing: /home/subi/ros2_ws/install/mono_phone_ros/share/mono_phone_ros/local_setup.bash\n'}
+[17.107924] (mono_phone_ros) StdoutLine: {'line': b'-- Installing: /home/subi/ros2_ws/install/mono_phone_ros/share/mono_phone_ros/local_setup.sh\n'}
+[17.108017] (mono_phone_ros) StdoutLine: {'line': b'-- Installing: /home/subi/ros2_ws/install/mono_phone_ros/share/mono_phone_ros/local_setup.zsh\n'}
+[17.108070] (mono_phone_ros) StdoutLine: {'line': b'-- Installing: /home/subi/ros2_ws/install/mono_phone_ros/share/mono_phone_ros/local_setup.dsv\n'}
+[17.108128] (mono_phone_ros) StdoutLine: {'line': b'-- Installing: /home/subi/ros2_ws/install/mono_phone_ros/share/mono_phone_ros/package.dsv\n'}
+[17.108180] (mono_phone_ros) StdoutLine: {'line': b'-- Installing: /home/subi/ros2_ws/install/mono_phone_ros/share/ament_index/resource_index/packages/mono_phone_ros\n'}
+[17.108284] (mono_phone_ros) StdoutLine: {'line': b'-- Installing: /home/subi/ros2_ws/install/mono_phone_ros/share/mono_phone_ros/cmake/mono_phone_rosConfig.cmake\n'}
+[17.108334] (mono_phone_ros) StdoutLine: {'line': b'-- Installing: /home/subi/ros2_ws/install/mono_phone_ros/share/mono_phone_ros/cmake/mono_phone_rosConfig-version.cmake\n'}
+[17.108380] (mono_phone_ros) StdoutLine: {'line': b'-- Installing: /home/subi/ros2_ws/install/mono_phone_ros/share/mono_phone_ros/package.xml\n'}
+[17.109655] (mono_phone_ros) CommandEnded: {'returncode': 0}
+[17.159064] (mono_phone_ros) JobEnded: {'identifier': 'mono_phone_ros', 'rc': 0}
+[17.174433] (-) TimerEvent: {}
+[17.174565] (-) EventReactorShutdown: {}

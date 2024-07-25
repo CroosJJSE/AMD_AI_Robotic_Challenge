@@ -1,0 +1,23 @@
+[0.010s] Invoking command in '/home/subi/codes/AMD_AI_Robotic_Challenge/ros2_ws_phone/build/mono_phone_ros': /usr/bin/cmake --build /home/subi/codes/AMD_AI_Robotic_Challenge/ros2_ws_phone/build/mono_phone_ros -- -j8 -l8
+[0.024s] [0mCMake Error: The current CMakeCache.txt directory /home/subi/codes/AMD_AI_Robotic_Challenge/ros2_ws_phone/build/mono_phone_ros/CMakeCache.txt is different than the directory /home/subi/ros2_ws/build/mono_phone_ros where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.074s] [100%] Built target mono_phone_node
+[0.084s] Invoked command in '/home/subi/codes/AMD_AI_Robotic_Challenge/ros2_ws_phone/build/mono_phone_ros' returned '0': /usr/bin/cmake --build /home/subi/codes/AMD_AI_Robotic_Challenge/ros2_ws_phone/build/mono_phone_ros -- -j8 -l8
+[0.152s] Invoking command in '/home/subi/codes/AMD_AI_Robotic_Challenge/ros2_ws_phone/build/mono_phone_ros': /usr/bin/cmake --install /home/subi/codes/AMD_AI_Robotic_Challenge/ros2_ws_phone/build/mono_phone_ros
+[0.170s] -- Install configuration: ""
+[0.171s] -- Up-to-date: /home/subi/ros2_ws/install/mono_phone_ros/lib/mono_phone_ros/mono_phone_node
+[0.171s] -- Up-to-date: /home/subi/ros2_ws/install/mono_phone_ros/share/ament_index/resource_index/package_run_dependencies/mono_phone_ros
+[0.171s] -- Up-to-date: /home/subi/ros2_ws/install/mono_phone_ros/share/ament_index/resource_index/parent_prefix_path/mono_phone_ros
+[0.171s] -- Up-to-date: /home/subi/ros2_ws/install/mono_phone_ros/share/mono_phone_ros/environment/ament_prefix_path.sh
+[0.171s] -- Up-to-date: /home/subi/ros2_ws/install/mono_phone_ros/share/mono_phone_ros/environment/ament_prefix_path.dsv
+[0.171s] -- Up-to-date: /home/subi/ros2_ws/install/mono_phone_ros/share/mono_phone_ros/environment/path.sh
+[0.172s] -- Up-to-date: /home/subi/ros2_ws/install/mono_phone_ros/share/mono_phone_ros/environment/path.dsv
+[0.172s] -- Up-to-date: /home/subi/ros2_ws/install/mono_phone_ros/share/mono_phone_ros/local_setup.bash
+[0.172s] -- Up-to-date: /home/subi/ros2_ws/install/mono_phone_ros/share/mono_phone_ros/local_setup.sh
+[0.172s] -- Up-to-date: /home/subi/ros2_ws/install/mono_phone_ros/share/mono_phone_ros/local_setup.zsh
+[0.172s] -- Up-to-date: /home/subi/ros2_ws/install/mono_phone_ros/share/mono_phone_ros/local_setup.dsv
+[0.172s] -- Installing: /home/subi/ros2_ws/install/mono_phone_ros/share/mono_phone_ros/package.dsv
+[0.172s] -- Up-to-date: /home/subi/ros2_ws/install/mono_phone_ros/share/ament_index/resource_index/packages/mono_phone_ros
+[0.172s] -- Up-to-date: /home/subi/ros2_ws/install/mono_phone_ros/share/mono_phone_ros/cmake/mono_phone_rosConfig.cmake
+[0.172s] -- Up-to-date: /home/subi/ros2_ws/install/mono_phone_ros/share/mono_phone_ros/cmake/mono_phone_rosConfig-version.cmake
+[0.172s] -- Up-to-date: /home/subi/ros2_ws/install/mono_phone_ros/share/mono_phone_ros/package.xml
+[0.175s] Invoked command in '/home/subi/codes/AMD_AI_Robotic_Challenge/ros2_ws_phone/build/mono_phone_ros' returned '0': /usr/bin/cmake --install /home/subi/codes/AMD_AI_Robotic_Challenge/ros2_ws_phone/build/mono_phone_ros
