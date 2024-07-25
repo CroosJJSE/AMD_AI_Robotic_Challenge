@@ -242,35 +242,36 @@ make sure that you have the /workspace/MH_01_easy folder which has the EUROC dat
 2. Connect your mobile phone as the webcam to the PC to map your home. Create two new scripts in the `_ORBSLAM_no_ROS` folder.
     - For compiling:
 ```
-g++ -c mono_phone.cc -o mono_phone.o     
-    -I/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3     
-    -I/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include     
-    -I/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/CameraModels     
-    -I/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen     
-    -I/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus     
-    -I/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o     
-    -I/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty     
-    -I/usr/local/include/opencv4     
+g++ -c mono_phone.cc -o mono_phone.o \
+    -I/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3 \
+    -I/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include \
+    -I/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/CameraModels \
+    -I/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen \
+    -I/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus \
+    -I/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o \
+    -I/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty \
+    -I/usr/local/include/opencv4 \
     -O3 -march=native -std=c++14
+
 ```
 - For linking:
 ```bash
-g++ mono_phone.o -o mono_phone     
-    -L/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/lib     
-    -L/usr/local/lib     
-    -lORB_SLAM3     
-    -lpangolin     
-    -lopencv_core     
-    -lopencv_imgproc     
-    -lopencv_highgui     
-    -lopencv_features2d     
-    -lopencv_calib3d     
-    -lopencv_ml     
-    -lopencv_video     
-    -lopencv_objdetect     
-    -lopencv_photo     
-    -lopencv_videoio     
-    -lGL     
+g++ mono_phone.o -o mono_phone \
+    -L/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/lib \
+    -L/usr/local/lib \
+    -lORB_SLAM3 \
+    -lpangolin \
+    -lopencv_core \
+    -lopencv_imgproc \
+    -lopencv_highgui \
+    -lopencv_features2d \
+    -lopencv_calib3d \
+    -lopencv_ml \
+    -lopencv_video \
+    -lopencv_objdetect \
+    -lopencv_photo \
+    -lopencv_videoio \
+    -lGL \
     -lGLEW
 
 ```
