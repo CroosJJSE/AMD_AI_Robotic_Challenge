@@ -231,6 +231,9 @@ just run the **update_repo.sh**
 ## Running ORBSLAM3 on PC without ROS2
 
 1. Download ORBSLAM3 from [GitHub](https://github.com/UZ-SLAMLab/ORB_SLAM3) and run using EuRoc Dataset:
+
+make sure that you have the /workspace/MH_01_easy folder which has the EUROC dataset
+
     ```bash
     ./Examples/Monocular/mono_euroc ./Vocabulary/ORBvoc.txt Examples/Monocular/EuRoC.yaml /workspace/MH_01_easy Examples/Monocular/EuRoC_TimeStamps/MH01.txt
     ```
