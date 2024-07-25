@@ -1,0 +1,6 @@
+Invoking command in '/home/subi/ros2_ws/build/my_slam_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/subi/ros2_ws/src/my_slam_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/subi/ros2_ws/install/my_slam_package
+Invoked command in '/home/subi/ros2_ws/build/my_slam_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/subi/ros2_ws/src/my_slam_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/subi/ros2_ws/install/my_slam_package
+Invoking command in '/home/subi/ros2_ws/build/my_slam_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/subi/ros2_ws/build/my_slam_package -- -j8 -l8
+Invoked command in '/home/subi/ros2_ws/build/my_slam_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/subi/ros2_ws/build/my_slam_package -- -j8 -l8
+Invoking command in '/home/subi/ros2_ws/build/my_slam_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/subi/ros2_ws/build/my_slam_package
+Invoked command in '/home/subi/ros2_ws/build/my_slam_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/subi/ros2_ws/build/my_slam_package

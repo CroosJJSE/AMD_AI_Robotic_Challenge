@@ -1,0 +1,788 @@
+[0.000000] (-) TimerEvent: {}
+[0.000178] (mono_phone_ros) JobQueued: {'identifier': 'mono_phone_ros', 'dependencies': OrderedDict()}
+[0.000226] (my_slam_package) JobQueued: {'identifier': 'my_slam_package', 'dependencies': OrderedDict()}
+[0.000256] (mono_phone_ros) JobStarted: {'identifier': 'mono_phone_ros'}
+[0.006048] (my_slam_package) JobStarted: {'identifier': 'my_slam_package'}
+[0.009219] (mono_phone_ros) JobProgress: {'identifier': 'mono_phone_ros', 'progress': 'cmake'}
+[0.009880] (mono_phone_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/subi/ros2_ws/src/mono_phone_ros', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCATKIN_SYMLINK_INSTALL=ON', '-DCMAKE_INSTALL_PREFIX=/home/subi/ros2_ws/install/mono_phone_ros'], 'cwd': '/home/subi/ros2_ws/build/mono_phone_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'subi'), ('LC_TIME', 'en_GB.UTF-8'), ('ROS_PACKAGE_PATH', ':/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Examples/ROS'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/lib'), ('HOME', '/home/subi'), ('OLDPWD', '/home/subi/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1283'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e405ea435c27c1aacaaa3c16669cfb81'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'subi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'subi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/subi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kobal:@/tmp/.ICE-unix/1283,unix/kobal:/tmp/.ICE-unix/1283'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/61f24f9d_eef4_4c0c_abd2_fe7454751843'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.B1B7Q2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.742'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LC_MESSAGES', 'ta_IN.UTF-8'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/subi/ros2_ws/build/mono_phone_ros'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e405ea435c27c1aacaaa3c16669cfb81'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/subi/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.014246] (my_slam_package) JobProgress: {'identifier': 'my_slam_package', 'progress': 'cmake'}
+[0.015092] (my_slam_package) Command: {'cmd': ['/usr/bin/cmake', '/home/subi/ros2_ws/src/my_slam_package', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/subi/ros2_ws/install/my_slam_package'], 'cwd': '/home/subi/ros2_ws/build/my_slam_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'subi'), ('LC_TIME', 'en_GB.UTF-8'), ('ROS_PACKAGE_PATH', ':/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Examples/ROS'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/lib'), ('HOME', '/home/subi'), ('OLDPWD', '/home/subi/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1283'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e405ea435c27c1aacaaa3c16669cfb81'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'subi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'subi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/subi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kobal:@/tmp/.ICE-unix/1283,unix/kobal:/tmp/.ICE-unix/1283'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/61f24f9d_eef4_4c0c_abd2_fe7454751843'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.B1B7Q2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.742'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LC_MESSAGES', 'ta_IN.UTF-8'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/subi/ros2_ws/build/my_slam_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e405ea435c27c1aacaaa3c16669cfb81'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/subi/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.025694] (mono_phone_ros) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.066053] (my_slam_package) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099330] (-) TimerEvent: {}
+[0.119165] (my_slam_package) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.125786] (my_slam_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.164568] (mono_phone_ros) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.195763] (mono_phone_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.197964] (mono_phone_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.198236] (my_slam_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.199392] (-) TimerEvent: {}
+[0.204654] (mono_phone_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.204998] (my_slam_package) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.205181] (my_slam_package) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.205451] (my_slam_package) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.207970] (my_slam_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.215880] (mono_phone_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.232783] (mono_phone_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.275061] (my_slam_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.281872] (my_slam_package) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.282203] (my_slam_package) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.282382] (my_slam_package) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.283799] (mono_phone_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.285246] (mono_phone_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.286258] (my_slam_package) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299531] (-) TimerEvent: {}
+[0.397334] (mono_phone_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.399636] (-) TimerEvent: {}
+[0.441891] (my_slam_package) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.495983] (my_slam_package) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.499772] (-) TimerEvent: {}
+[0.517742] (my_slam_package) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.548187] (mono_phone_ros) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.583038] (my_slam_package) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.586367] (my_slam_package) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.592596] (my_slam_package) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.599897] (-) TimerEvent: {}
+[0.603262] (my_slam_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.618474] (my_slam_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.663017] (mono_phone_ros) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.675294] (my_slam_package) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.676929] (my_slam_package) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700042] (-) TimerEvent: {}
+[0.764780] (mono_phone_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.777797] (mono_phone_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[0.778079] (my_slam_package) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.779009] (mono_phone_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/subi/ros2_ws/build/mono_phone_ros\n'}
+[0.785813] (mono_phone_ros) CommandEnded: {'returncode': 0}
+[0.786570] (mono_phone_ros) JobProgress: {'identifier': 'mono_phone_ros', 'progress': 'build'}
+[0.787969] (mono_phone_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/subi/ros2_ws/build/mono_phone_ros', '--', '-j8', '-l8'], 'cwd': '/home/subi/ros2_ws/build/mono_phone_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'subi'), ('LC_TIME', 'en_GB.UTF-8'), ('ROS_PACKAGE_PATH', ':/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Examples/ROS'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/lib'), ('HOME', '/home/subi'), ('OLDPWD', '/home/subi/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1283'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e405ea435c27c1aacaaa3c16669cfb81'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'subi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'subi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/subi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kobal:@/tmp/.ICE-unix/1283,unix/kobal:/tmp/.ICE-unix/1283'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/61f24f9d_eef4_4c0c_abd2_fe7454751843'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.B1B7Q2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.742'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LC_MESSAGES', 'ta_IN.UTF-8'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/subi/ros2_ws/build/mono_phone_ros'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e405ea435c27c1aacaaa3c16669cfb81'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/subi/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.800178] (-) TimerEvent: {}
+[0.801941] (my_slam_package) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.834276] (mono_phone_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mono_phone_node\x1b[0m\n'}
+[0.845745] (my_slam_package) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.852892] (my_slam_package) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.858608] (mono_phone_ros) StdoutLine: {'line': b'[100%] Built target mono_phone_node\n'}
+[0.874398] (mono_phone_ros) CommandEnded: {'returncode': 0}
+[0.900283] (-) TimerEvent: {}
+[0.922111] (my_slam_package) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.922423] (my_slam_package) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.925476] (mono_phone_ros) JobProgress: {'identifier': 'mono_phone_ros', 'progress': 'install'}
+[0.935419] (mono_phone_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/subi/ros2_ws/build/mono_phone_ros'], 'cwd': '/home/subi/ros2_ws/build/mono_phone_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'subi'), ('LC_TIME', 'en_GB.UTF-8'), ('ROS_PACKAGE_PATH', ':/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Examples/ROS'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/lib'), ('HOME', '/home/subi'), ('OLDPWD', '/home/subi/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1283'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e405ea435c27c1aacaaa3c16669cfb81'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'subi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'subi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/subi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kobal:@/tmp/.ICE-unix/1283,unix/kobal:/tmp/.ICE-unix/1283'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/61f24f9d_eef4_4c0c_abd2_fe7454751843'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.B1B7Q2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.742'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LC_MESSAGES', 'ta_IN.UTF-8'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/subi/ros2_ws/build/mono_phone_ros'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e405ea435c27c1aacaaa3c16669cfb81'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/subi/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.942096] (mono_phone_ros) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[0.942433] (mono_phone_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subi/ros2_ws/install/mono_phone_ros/lib/mono_phone_ros/mono_phone_node\n'}
+[0.942578] (mono_phone_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subi/ros2_ws/install/mono_phone_ros/share/ament_index/resource_index/package_run_dependencies/mono_phone_ros\n'}
+[0.942628] (mono_phone_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subi/ros2_ws/install/mono_phone_ros/share/ament_index/resource_index/parent_prefix_path/mono_phone_ros\n'}
+[0.942671] (mono_phone_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subi/ros2_ws/install/mono_phone_ros/share/mono_phone_ros/environment/ament_prefix_path.sh\n'}
+[0.942728] (mono_phone_ros) StdoutLine: {'line': b'-- Installing: /home/subi/ros2_ws/install/mono_phone_ros/share/mono_phone_ros/environment/ament_prefix_path.dsv\n'}
+[0.942770] (mono_phone_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subi/ros2_ws/install/mono_phone_ros/share/mono_phone_ros/environment/path.sh\n'}
+[0.942827] (mono_phone_ros) StdoutLine: {'line': b'-- Installing: /home/subi/ros2_ws/install/mono_phone_ros/share/mono_phone_ros/environment/path.dsv\n'}
+[0.942871] (mono_phone_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subi/ros2_ws/install/mono_phone_ros/share/mono_phone_ros/local_setup.bash\n'}
+[0.942926] (mono_phone_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subi/ros2_ws/install/mono_phone_ros/share/mono_phone_ros/local_setup.sh\n'}
+[0.942968] (mono_phone_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subi/ros2_ws/install/mono_phone_ros/share/mono_phone_ros/local_setup.zsh\n'}
+[0.943018] (mono_phone_ros) StdoutLine: {'line': b'-- Installing: /home/subi/ros2_ws/install/mono_phone_ros/share/mono_phone_ros/local_setup.dsv\n'}
+[0.943060] (mono_phone_ros) StdoutLine: {'line': b'-- Installing: /home/subi/ros2_ws/install/mono_phone_ros/share/mono_phone_ros/package.dsv\n'}
+[0.943122] (mono_phone_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subi/ros2_ws/install/mono_phone_ros/share/ament_index/resource_index/packages/mono_phone_ros\n'}
+[0.943175] (mono_phone_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subi/ros2_ws/install/mono_phone_ros/share/mono_phone_ros/cmake/mono_phone_rosConfig.cmake\n'}
+[0.943216] (mono_phone_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subi/ros2_ws/install/mono_phone_ros/share/mono_phone_ros/cmake/mono_phone_rosConfig-version.cmake\n'}
+[0.943258] (mono_phone_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subi/ros2_ws/install/mono_phone_ros/share/mono_phone_ros/package.xml\n'}
+[0.944902] (mono_phone_ros) CommandEnded: {'returncode': 0}
+[0.980182] (mono_phone_ros) JobEnded: {'identifier': 'mono_phone_ros', 'rc': 0}
+[0.987128] (my_slam_package) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.987911] (my_slam_package) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.000409] (-) TimerEvent: {}
+[1.100753] (-) TimerEvent: {}
+[1.124723] (my_slam_package) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.200880] (-) TimerEvent: {}
+[1.235388] (my_slam_package) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[1.251678] (my_slam_package) StdoutLine: {'line': b'-- Found OpenCV: /usr/local (found version "4.10.0") \n'}
+[1.301027] (-) TimerEvent: {}
+[1.323467] (my_slam_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.339999] (my_slam_package) StdoutLine: {'line': b'-- Generating done\n'}
+[1.341107] (my_slam_package) StdoutLine: {'line': b'-- Build files have been written to: /home/subi/ros2_ws/build/my_slam_package\n'}
+[1.351199] (my_slam_package) CommandEnded: {'returncode': 0}
+[1.351978] (my_slam_package) JobProgress: {'identifier': 'my_slam_package', 'progress': 'build'}
+[1.352955] (my_slam_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/subi/ros2_ws/build/my_slam_package', '--', '-j8', '-l8'], 'cwd': '/home/subi/ros2_ws/build/my_slam_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'subi'), ('LC_TIME', 'en_GB.UTF-8'), ('ROS_PACKAGE_PATH', ':/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Examples/ROS'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/lib'), ('HOME', '/home/subi'), ('OLDPWD', '/home/subi/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1283'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e405ea435c27c1aacaaa3c16669cfb81'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'subi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'subi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/subi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kobal:@/tmp/.ICE-unix/1283,unix/kobal:/tmp/.ICE-unix/1283'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/61f24f9d_eef4_4c0c_abd2_fe7454751843'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.B1B7Q2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.742'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LC_MESSAGES', 'ta_IN.UTF-8'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/subi/ros2_ws/build/my_slam_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e405ea435c27c1aacaaa3c16669cfb81'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/subi/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.401156] (-) TimerEvent: {}
+[1.419162] (my_slam_package) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/video_publisher.dir/src/video_publisher.cpp.o\x1b[0m\n'}
+[1.423808] (my_slam_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/slam_processor.dir/src/slam_processor.cpp.o\x1b[0m\n'}
+[1.501282] (-) TimerEvent: {}
+[1.601631] (-) TimerEvent: {}
+[1.701984] (-) TimerEvent: {}
+[1.802337] (-) TimerEvent: {}
+[1.902708] (-) TimerEvent: {}
+[2.003072] (-) TimerEvent: {}
+[2.103449] (-) TimerEvent: {}
+[2.203834] (-) TimerEvent: {}
+[2.304199] (-) TimerEvent: {}
+[2.404589] (-) TimerEvent: {}
+[2.504964] (-) TimerEvent: {}
+[2.605312] (-) TimerEvent: {}
+[2.705746] (-) TimerEvent: {}
+[2.806171] (-) TimerEvent: {}
+[2.906527] (-) TimerEvent: {}
+[3.006904] (-) TimerEvent: {}
+[3.107295] (-) TimerEvent: {}
+[3.207663] (-) TimerEvent: {}
+[3.308034] (-) TimerEvent: {}
+[3.408400] (-) TimerEvent: {}
+[3.508780] (-) TimerEvent: {}
+[3.609133] (-) TimerEvent: {}
+[3.709528] (-) TimerEvent: {}
+[3.809906] (-) TimerEvent: {}
+[3.910262] (-) TimerEvent: {}
+[4.010608] (-) TimerEvent: {}
+[4.110977] (-) TimerEvent: {}
+[4.211371] (-) TimerEvent: {}
+[4.311802] (-) TimerEvent: {}
+[4.412155] (-) TimerEvent: {}
+[4.512535] (-) TimerEvent: {}
+[4.612882] (-) TimerEvent: {}
+[4.713312] (-) TimerEvent: {}
+[4.813816] (-) TimerEvent: {}
+[4.914231] (-) TimerEvent: {}
+[5.014671] (-) TimerEvent: {}
+[5.115056] (-) TimerEvent: {}
+[5.215500] (-) TimerEvent: {}
+[5.315985] (-) TimerEvent: {}
+[5.416515] (-) TimerEvent: {}
+[5.517028] (-) TimerEvent: {}
+[5.617576] (-) TimerEvent: {}
+[5.718013] (-) TimerEvent: {}
+[5.818450] (-) TimerEvent: {}
+[5.919000] (-) TimerEvent: {}
+[5.943371] (my_slam_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[5.943645] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[5.943749] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[5.943840] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[5.943928] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[5.944027] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[5.944127] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[5.944213] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[5.944298] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[5.944383] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/my_slam_package/src/slam_processor.cpp:5\x1b[m\x1b[K:\n'}
+[5.944469] (my_slam_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.944605] (my_slam_package) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & \x1b[01;35m\x1b[KAlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[5.944694] (my_slam_package) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.944781] (my_slam_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/Core:166\x1b[m\x1b[K,\n'}
+[5.944875] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[5.944959] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[5.945044] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[5.945129] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[5.945214] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[5.945298] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[5.945385] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[5.945472] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[5.945559] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[5.945644] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[5.946053] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[5.946165] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/my_slam_package/src/slam_processor.cpp:5\x1b[m\x1b[K:\n'}
+[5.946273] (my_slam_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/src/Core/util/Constants.h:171:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.946361] (my_slam_package) StderrLine: {'line': b'  171 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[5.946446] (my_slam_package) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.968707] (my_slam_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[5.968955] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[5.969063] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[5.969156] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[5.969247] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[5.969338] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[5.969452] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[5.969542] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[5.969630] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[5.969729] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/my_slam_package/src/slam_processor.cpp:5\x1b[m\x1b[K:\n'}
+[5.969819] (my_slam_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:82:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.969915] (my_slam_package) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & \x1b[01;35m\x1b[KAlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[5.970007] (my_slam_package) StderrLine: {'line': b'      |                                                                                  \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.970096] (my_slam_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/Core:166\x1b[m\x1b[K,\n'}
+[5.970185] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[5.970275] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[5.970364] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[5.970453] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[5.970556] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[5.970653] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[5.970742] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[5.970831] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[5.970919] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[5.971008] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[5.971097] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[5.971185] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/my_slam_package/src/slam_processor.cpp:5\x1b[m\x1b[K:\n'}
+[5.971273] (my_slam_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/src/Core/util/Constants.h:171:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.971364] (my_slam_package) StderrLine: {'line': b'  171 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[5.971452] (my_slam_package) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.971539] (my_slam_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[5.971628] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[5.971716] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[5.971804] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[5.971893] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[5.971981] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[5.972069] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[5.972159] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[5.972247] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[5.972335] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/my_slam_package/src/slam_processor.cpp:5\x1b[m\x1b[K:\n'}
+[5.972423] (my_slam_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:82:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.972571] (my_slam_package) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & \x1b[01;35m\x1b[KAlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[5.972663] (my_slam_package) StderrLine: {'line': b'      |                                                                                  \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.972750] (my_slam_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/Core:166\x1b[m\x1b[K,\n'}
+[5.972839] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[5.972926] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[5.973021] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[5.973109] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[5.973197] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[5.973286] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[5.973374] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[5.973462] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[5.973551] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[5.973638] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[5.973742] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[5.973830] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/my_slam_package/src/slam_processor.cpp:5\x1b[m\x1b[K:\n'}
+[5.973919] (my_slam_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/src/Core/util/Constants.h:171:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.974008] (my_slam_package) StderrLine: {'line': b'  171 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[5.974095] (my_slam_package) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.019236] (-) TimerEvent: {}
+[6.119891] (-) TimerEvent: {}
+[6.220541] (-) TimerEvent: {}
+[6.321116] (-) TimerEvent: {}
+[6.400408] (my_slam_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[6.400672] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[6.400801] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[6.400894] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.400984] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.401074] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.401165] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.401253] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.401340] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.401428] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/my_slam_package/src/slam_processor.cpp:5\x1b[m\x1b[K:\n'}
+[6.401518] (my_slam_package) StderrLine: {'line': b'/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseVertex<3, Eigen::Matrix<double, 3, 1> >\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.401611] (my_slam_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_sba.h:40:35:\x1b[m\x1b[K   required from here\n'}
+[6.401700] (my_slam_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.401815] (my_slam_package) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[6.401907] (my_slam_package) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.401996] (my_slam_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/Core:166\x1b[m\x1b[K,\n'}
+[6.402085] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[6.402175] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[6.402263] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[6.402351] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[6.402439] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[6.402526] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.402615] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.402714] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.402803] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.402889] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.402975] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.403062] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/my_slam_package/src/slam_processor.cpp:5\x1b[m\x1b[K:\n'}
+[6.403163] (my_slam_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/src/Core/util/Constants.h:171:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.403253] (my_slam_package) StderrLine: {'line': b'  171 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[6.403342] (my_slam_package) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.421339] (-) TimerEvent: {}
+[6.428614] (my_slam_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[6.428855] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[6.428961] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[6.429054] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.429144] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.429233] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.429323] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.429412] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.429500] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.429588] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/my_slam_package/src/slam_processor.cpp:5\x1b[m\x1b[K:\n'}
+[6.429678] (my_slam_package) StderrLine: {'line': b'/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseVertex<6, g2o::SE3Quat>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.429771] (my_slam_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:59:33:\x1b[m\x1b[K   required from here\n'}
+[6.429861] (my_slam_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.429978] (my_slam_package) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[6.430071] (my_slam_package) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.430169] (my_slam_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/Core:166\x1b[m\x1b[K,\n'}
+[6.430258] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[6.430348] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[6.430438] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[6.430527] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[6.430616] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[6.430705] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.430793] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.430882] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.430971] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.431058] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.431147] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.431235] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/my_slam_package/src/slam_processor.cpp:5\x1b[m\x1b[K:\n'}
+[6.431320] (my_slam_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/src/Core/util/Constants.h:171:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.431406] (my_slam_package) StderrLine: {'line': b'  171 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[6.431491] (my_slam_package) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.459032] (my_slam_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[6.459262] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[6.459369] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[6.459462] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.459572] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.459662] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.459753] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.459842] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.459930] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.460019] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/my_slam_package/src/slam_processor.cpp:5\x1b[m\x1b[K:\n'}
+[6.460110] (my_slam_package) StderrLine: {'line': b'/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<6, g2o::SE3Quat, g2o::VertexSE3Expmap, g2o::VertexSE3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.460205] (my_slam_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:83:24:\x1b[m\x1b[K   required from here\n'}
+[6.460295] (my_slam_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.460407] (my_slam_package) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[6.460519] (my_slam_package) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.460618] (my_slam_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/Core:166\x1b[m\x1b[K,\n'}
+[6.460709] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[6.460808] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[6.460898] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[6.460987] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[6.461078] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[6.461167] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.461256] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.461358] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.461446] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.461531] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.461616] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.461700] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/my_slam_package/src/slam_processor.cpp:5\x1b[m\x1b[K:\n'}
+[6.461785] (my_slam_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/src/Core/util/Constants.h:171:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.461872] (my_slam_package) StderrLine: {'line': b'  171 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[6.461956] (my_slam_package) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.462041] (my_slam_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[6.462127] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[6.462221] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[6.462310] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.462400] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.462487] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.462573] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.462662] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.462748] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.462832] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/my_slam_package/src/slam_processor.cpp:5\x1b[m\x1b[K:\n'}
+[6.462920] (my_slam_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.463030] (my_slam_package) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[6.463119] (my_slam_package) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.463213] (my_slam_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/Core:166\x1b[m\x1b[K,\n'}
+[6.463297] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[6.463382] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[6.463468] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[6.463555] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[6.463644] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[6.463732] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.463832] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.463924] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.464012] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.464099] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.464192] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.464283] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/my_slam_package/src/slam_processor.cpp:5\x1b[m\x1b[K:\n'}
+[6.464372] (my_slam_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/src/Core/util/Constants.h:171:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.464462] (my_slam_package) StderrLine: {'line': b'  171 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[6.464569] (my_slam_package) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.521491] (-) TimerEvent: {}
+[6.532997] (my_slam_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[6.533233] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[6.533338] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[6.533431] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.533522] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.533611] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.533702] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.533821] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.533911] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.534000] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/my_slam_package/src/slam_processor.cpp:5\x1b[m\x1b[K:\n'}
+[6.534090] (my_slam_package) StderrLine: {'line': b'/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.534184] (my_slam_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:114:35:\x1b[m\x1b[K   required from here\n'}
+[6.534274] (my_slam_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.534379] (my_slam_package) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[6.534470] (my_slam_package) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.534560] (my_slam_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/Core:166\x1b[m\x1b[K,\n'}
+[6.534649] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[6.534739] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[6.534829] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[6.534919] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[6.535008] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[6.535096] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.535185] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.535286] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.535374] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.535460] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.535546] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.535642] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/my_slam_package/src/slam_processor.cpp:5\x1b[m\x1b[K:\n'}
+[6.535729] (my_slam_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/src/Core/util/Constants.h:171:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.535818] (my_slam_package) StderrLine: {'line': b'  171 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[6.535902] (my_slam_package) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.548044] (my_slam_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[6.548368] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[6.548480] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[6.548617] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.548703] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.548789] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.548875] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.548961] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.549076] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.549163] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/my_slam_package/src/slam_processor.cpp:5\x1b[m\x1b[K:\n'}
+[6.549249] (my_slam_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.549346] (my_slam_package) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[6.549438] (my_slam_package) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.549540] (my_slam_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/Core:166\x1b[m\x1b[K,\n'}
+[6.549627] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[6.549713] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[6.549812] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[6.549898] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[6.549984] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[6.550067] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.550151] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.550235] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.550319] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.550403] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.550487] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.550571] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/my_slam_package/src/slam_processor.cpp:5\x1b[m\x1b[K:\n'}
+[6.550656] (my_slam_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/src/Core/util/Constants.h:171:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.550761] (my_slam_package) StderrLine: {'line': b'  171 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[6.550846] (my_slam_package) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.603809] (my_slam_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[6.604042] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[6.604144] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[6.604236] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.604325] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.604413] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.604518] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.604612] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.604700] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.604788] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/my_slam_package/src/slam_processor.cpp:5\x1b[m\x1b[K:\n'}
+[6.604892] (my_slam_package) StderrLine: {'line': b'/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<3, Eigen::Matrix<double, 3, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.604985] (my_slam_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:146:41:\x1b[m\x1b[K   required from here\n'}
+[6.605082] (my_slam_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.605178] (my_slam_package) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[6.605277] (my_slam_package) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.605367] (my_slam_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/Core:166\x1b[m\x1b[K,\n'}
+[6.605457] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[6.605545] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[6.605634] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[6.605723] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[6.605813] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[6.605901] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.605990] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.606079] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.606167] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.606255] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.606343] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.606430] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/my_slam_package/src/slam_processor.cpp:5\x1b[m\x1b[K:\n'}
+[6.606518] (my_slam_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/src/Core/util/Constants.h:171:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.606608] (my_slam_package) StderrLine: {'line': b'  171 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[6.606713] (my_slam_package) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.606801] (my_slam_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[6.606890] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[6.606978] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[6.607067] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.607154] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.607242] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.607330] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.607418] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.607506] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.607598] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/my_slam_package/src/slam_processor.cpp:5\x1b[m\x1b[K:\n'}
+[6.607685] (my_slam_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.607780] (my_slam_package) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[6.607871] (my_slam_package) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.607971] (my_slam_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/Core:166\x1b[m\x1b[K,\n'}
+[6.608061] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[6.608155] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[6.608245] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[6.608334] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[6.608423] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[6.608531] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.608631] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.608720] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.608809] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.608899] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.608987] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.609076] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/my_slam_package/src/slam_processor.cpp:5\x1b[m\x1b[K:\n'}
+[6.609163] (my_slam_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/src/Core/util/Constants.h:171:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.609253] (my_slam_package) StderrLine: {'line': b'  171 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[6.609341] (my_slam_package) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.621629] (-) TimerEvent: {}
+[6.691945] (my_slam_package) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable video_publisher\x1b[0m\n'}
+[6.721772] (-) TimerEvent: {}
+[6.811602] (my_slam_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[6.811861] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[6.811964] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[6.812054] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.812142] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.812249] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.812338] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.812425] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.812538] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.812634] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/my_slam_package/src/slam_processor.cpp:5\x1b[m\x1b[K:\n'}
+[6.812726] (my_slam_package) StderrLine: {'line': b'/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseVertex<7, g2o::Sim3>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.812818] (my_slam_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:48:35:\x1b[m\x1b[K   required from here\n'}
+[6.812922] (my_slam_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.813015] (my_slam_package) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[6.813100] (my_slam_package) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.813184] (my_slam_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/Core:166\x1b[m\x1b[K,\n'}
+[6.813277] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[6.813372] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[6.813462] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[6.813550] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[6.813638] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[6.813725] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.813812] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.813898] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.813987] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.814074] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.814162] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.814248] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/my_slam_package/src/slam_processor.cpp:5\x1b[m\x1b[K:\n'}
+[6.814335] (my_slam_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/src/Core/util/Constants.h:171:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.814423] (my_slam_package) StderrLine: {'line': b'  171 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[6.814510] (my_slam_package) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.821915] (-) TimerEvent: {}
+[6.841593] (my_slam_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[6.841830] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[6.841949] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[6.842037] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.842123] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.842207] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.842294] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.842389] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.842475] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.842561] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/my_slam_package/src/slam_processor.cpp:5\x1b[m\x1b[K:\n'}
+[6.842647] (my_slam_package) StderrLine: {'line': b'/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<7, g2o::Sim3, g2o::VertexSim3Expmap, g2o::VertexSim3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.842738] (my_slam_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:99:27:\x1b[m\x1b[K   required from here\n'}
+[6.842828] (my_slam_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.842922] (my_slam_package) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[6.843011] (my_slam_package) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.843106] (my_slam_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/Core:166\x1b[m\x1b[K,\n'}
+[6.843192] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[6.843275] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[6.843370] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[6.843457] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[6.843540] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[6.843638] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.843722] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.843807] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.843893] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.843979] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.844071] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.844154] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/my_slam_package/src/slam_processor.cpp:5\x1b[m\x1b[K:\n'}
+[6.844240] (my_slam_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/src/Core/util/Constants.h:171:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.844325] (my_slam_package) StderrLine: {'line': b'  171 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[6.844408] (my_slam_package) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.844513] (my_slam_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[6.844609] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[6.844694] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[6.844776] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.844860] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.844943] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.845026] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.845109] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.845191] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.845287] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/my_slam_package/src/slam_processor.cpp:5\x1b[m\x1b[K:\n'}
+[6.845372] (my_slam_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.845464] (my_slam_package) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[6.845557] (my_slam_package) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.845641] (my_slam_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/Core:166\x1b[m\x1b[K,\n'}
+[6.845724] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[6.845808] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[6.845900] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[6.845985] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[6.846072] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[6.846159] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.846246] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.846341] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.846429] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.846516] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.846603] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.846690] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/my_slam_package/src/slam_processor.cpp:5\x1b[m\x1b[K:\n'}
+[6.846777] (my_slam_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/src/Core/util/Constants.h:171:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.846865] (my_slam_package) StderrLine: {'line': b'  171 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[6.846953] (my_slam_package) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.884358] (my_slam_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[6.884600] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[6.884703] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[6.884794] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.884886] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.884998] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.885084] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.885167] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.885252] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.885335] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/my_slam_package/src/slam_processor.cpp:5\x1b[m\x1b[K:\n'}
+[6.885419] (my_slam_package) StderrLine: {'line': b'/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSim3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.885511] (my_slam_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:130:36:\x1b[m\x1b[K   required from here\n'}
+[6.885613] (my_slam_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.885706] (my_slam_package) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[6.885791] (my_slam_package) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.885876] (my_slam_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/Core:166\x1b[m\x1b[K,\n'}
+[6.885961] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[6.886052] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[6.886138] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[6.886221] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[6.886305] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[6.886388] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.886471] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.886555] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.886638] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.886735] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.886821] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.886908] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/my_slam_package/src/slam_processor.cpp:5\x1b[m\x1b[K:\n'}
+[6.886994] (my_slam_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/src/Core/util/Constants.h:171:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.887081] (my_slam_package) StderrLine: {'line': b'  171 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[6.887168] (my_slam_package) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.899673] (my_slam_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[6.899918] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[6.900016] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[6.900106] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.900196] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.900285] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.900377] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.900465] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.900573] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.900662] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/my_slam_package/src/slam_processor.cpp:5\x1b[m\x1b[K:\n'}
+[6.900746] (my_slam_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.900838] (my_slam_package) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[6.900924] (my_slam_package) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.901027] (my_slam_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/Core:166\x1b[m\x1b[K,\n'}
+[6.901116] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[6.901209] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[6.901297] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[6.901390] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[6.901480] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[6.901567] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.901654] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.901741] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.901827] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.901914] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.902000] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.902087] (my_slam_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/subi/ros2_ws/src/my_slam_package/src/slam_processor.cpp:5\x1b[m\x1b[K:\n'}
+[6.902174] (my_slam_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/eigen/Eigen/src/Core/util/Constants.h:171:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.902261] (my_slam_package) StderrLine: {'line': b'  171 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[6.902360] (my_slam_package) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.922065] (-) TimerEvent: {}
+[6.926506] (my_slam_package) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.410\n'}
+[7.022208] (-) TimerEvent: {}
+[7.122621] (-) TimerEvent: {}
+[7.223317] (-) TimerEvent: {}
+[7.323680] (-) TimerEvent: {}
+[7.355778] (my_slam_package) StdoutLine: {'line': b'[ 75%] Built target video_publisher\n'}
+[7.424028] (-) TimerEvent: {}
+[7.524371] (-) TimerEvent: {}
+[7.624753] (-) TimerEvent: {}
+[7.725098] (-) TimerEvent: {}
+[7.825445] (-) TimerEvent: {}
+[7.925795] (-) TimerEvent: {}
+[8.026137] (-) TimerEvent: {}
+[8.126485] (-) TimerEvent: {}
+[8.227039] (-) TimerEvent: {}
+[8.327393] (-) TimerEvent: {}
+[8.428021] (-) TimerEvent: {}
+[8.528601] (-) TimerEvent: {}
+[8.629267] (-) TimerEvent: {}
+[8.729607] (-) TimerEvent: {}
+[8.829964] (-) TimerEvent: {}
+[8.930311] (-) TimerEvent: {}
+[9.030655] (-) TimerEvent: {}
+[9.130989] (-) TimerEvent: {}
+[9.231736] (-) TimerEvent: {}
+[9.332292] (-) TimerEvent: {}
+[9.432828] (-) TimerEvent: {}
+[9.533186] (-) TimerEvent: {}
+[9.633526] (-) TimerEvent: {}
+[9.733873] (-) TimerEvent: {}
+[9.838883] (-) TimerEvent: {}
+[9.939441] (-) TimerEvent: {}
+[10.040032] (-) TimerEvent: {}
+[10.140594] (-) TimerEvent: {}
+[10.240933] (-) TimerEvent: {}
+[10.341275] (-) TimerEvent: {}
+[10.441618] (-) TimerEvent: {}
+[10.541963] (-) TimerEvent: {}
+[10.642310] (-) TimerEvent: {}
+[10.742673] (-) TimerEvent: {}
+[10.843017] (-) TimerEvent: {}
+[10.943355] (-) TimerEvent: {}
+[11.043695] (-) TimerEvent: {}
+[11.144036] (-) TimerEvent: {}
+[11.244371] (-) TimerEvent: {}
+[11.344744] (-) TimerEvent: {}
+[11.445089] (-) TimerEvent: {}
+[11.545425] (-) TimerEvent: {}
+[11.645764] (-) TimerEvent: {}
+[11.746103] (-) TimerEvent: {}
+[11.846444] (-) TimerEvent: {}
+[11.946783] (-) TimerEvent: {}
+[12.047330] (-) TimerEvent: {}
+[12.147651] (-) TimerEvent: {}
+[12.248209] (-) TimerEvent: {}
+[12.348567] (-) TimerEvent: {}
+[12.448916] (-) TimerEvent: {}
+[12.549268] (-) TimerEvent: {}
+[12.649647] (-) TimerEvent: {}
+[12.750453] (-) TimerEvent: {}
+[12.851027] (-) TimerEvent: {}
+[12.951504] (-) TimerEvent: {}
+[13.052028] (-) TimerEvent: {}
+[13.152609] (-) TimerEvent: {}
+[13.252954] (-) TimerEvent: {}
+[13.353304] (-) TimerEvent: {}
+[13.453647] (-) TimerEvent: {}
+[13.553992] (-) TimerEvent: {}
+[13.654335] (-) TimerEvent: {}
+[13.754678] (-) TimerEvent: {}
+[13.855016] (-) TimerEvent: {}
+[13.955756] (-) TimerEvent: {}
+[14.056103] (-) TimerEvent: {}
+[14.156456] (-) TimerEvent: {}
+[14.256798] (-) TimerEvent: {}
+[14.357135] (-) TimerEvent: {}
+[14.457476] (-) TimerEvent: {}
+[14.557793] (-) TimerEvent: {}
+[14.658146] (-) TimerEvent: {}
+[14.758500] (-) TimerEvent: {}
+[14.859186] (-) TimerEvent: {}
+[14.959675] (-) TimerEvent: {}
+[15.060015] (-) TimerEvent: {}
+[15.160345] (-) TimerEvent: {}
+[15.260697] (-) TimerEvent: {}
+[15.361033] (-) TimerEvent: {}
+[15.461366] (-) TimerEvent: {}
+[15.561704] (-) TimerEvent: {}
+[15.662036] (-) TimerEvent: {}
+[15.762396] (-) TimerEvent: {}
+[15.862821] (-) TimerEvent: {}
+[15.963172] (-) TimerEvent: {}
+[16.063509] (-) TimerEvent: {}
+[16.163847] (-) TimerEvent: {}
+[16.264182] (-) TimerEvent: {}
+[16.364537] (-) TimerEvent: {}
+[16.464868] (-) TimerEvent: {}
+[16.565209] (-) TimerEvent: {}
+[16.665589] (-) TimerEvent: {}
+[16.765980] (-) TimerEvent: {}
+[16.853224] (my_slam_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable slam_processor\x1b[0m\n'}
+[16.866319] (-) TimerEvent: {}
+[16.966942] (-) TimerEvent: {}
+[17.067442] (-) TimerEvent: {}
+[17.167917] (-) TimerEvent: {}
+[17.268350] (-) TimerEvent: {}
+[17.368817] (-) TimerEvent: {}
+[17.469209] (-) TimerEvent: {}
+[17.551752] (my_slam_package) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.410\n'}
+[17.552078] (my_slam_package) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.410\n'}
+[17.569346] (-) TimerEvent: {}
+[17.669698] (-) TimerEvent: {}
+[17.770039] (-) TimerEvent: {}
+[17.870377] (-) TimerEvent: {}
+[17.970716] (-) TimerEvent: {}
+[18.071058] (-) TimerEvent: {}
+[18.096330] (my_slam_package) StdoutLine: {'line': b'[100%] Built target slam_processor\n'}
+[18.117366] (my_slam_package) CommandEnded: {'returncode': 0}
+[18.152810] (my_slam_package) JobProgress: {'identifier': 'my_slam_package', 'progress': 'install'}
+[18.153846] (my_slam_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/subi/ros2_ws/build/my_slam_package'], 'cwd': '/home/subi/ros2_ws/build/my_slam_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'subi'), ('LC_TIME', 'en_GB.UTF-8'), ('ROS_PACKAGE_PATH', ':/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/Examples/ROS'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/subi/codes/AMD_AI_Robotic_Challenge/ORB_SLAM3/lib'), ('HOME', '/home/subi'), ('OLDPWD', '/home/subi/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1283'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e405ea435c27c1aacaaa3c16669cfb81'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'subi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'subi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/subi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kobal:@/tmp/.ICE-unix/1283,unix/kobal:/tmp/.ICE-unix/1283'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/61f24f9d_eef4_4c0c_abd2_fe7454751843'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.B1B7Q2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.742'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LC_MESSAGES', 'ta_IN.UTF-8'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/subi/ros2_ws/build/my_slam_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e405ea435c27c1aacaaa3c16669cfb81'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/subi/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[18.159901] (my_slam_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.160139] (my_slam_package) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[18.160364] (my_slam_package) StdoutLine: {'line': b'-- Symlinking: /home/subi/ros2_ws/install/my_slam_package/lib/my_slam_package/video_publisher\n'}
+[18.167982] (my_slam_package) StdoutLine: {'line': b'-- Symlinking: /home/subi/ros2_ws/install/my_slam_package/lib/my_slam_package/slam_processor\n'}
+[18.171189] (-) TimerEvent: {}
+[18.175480] (my_slam_package) StdoutLine: {'line': b'-- Symlinking: /home/subi/ros2_ws/install/my_slam_package/share/ament_index/resource_index/package_run_dependencies/my_slam_package\n'}
+[18.183019] (my_slam_package) StdoutLine: {'line': b'-- Symlinking: /home/subi/ros2_ws/install/my_slam_package/share/ament_index/resource_index/parent_prefix_path/my_slam_package\n'}
+[18.190583] (my_slam_package) StdoutLine: {'line': b'-- Symlinking: /home/subi/ros2_ws/install/my_slam_package/share/my_slam_package/environment/ament_prefix_path.sh\n'}
+[18.198615] (my_slam_package) StdoutLine: {'line': b'-- Symlinking: /home/subi/ros2_ws/install/my_slam_package/share/my_slam_package/environment/ament_prefix_path.dsv\n'}
+[18.208216] (my_slam_package) StdoutLine: {'line': b'-- Symlinking: /home/subi/ros2_ws/install/my_slam_package/share/my_slam_package/environment/path.sh\n'}
+[18.221398] (my_slam_package) StdoutLine: {'line': b'-- Symlinking: /home/subi/ros2_ws/install/my_slam_package/share/my_slam_package/environment/path.dsv\n'}
+[18.229072] (my_slam_package) StdoutLine: {'line': b'-- Symlinking: /home/subi/ros2_ws/install/my_slam_package/share/my_slam_package/local_setup.bash\n'}
+[18.242499] (my_slam_package) StdoutLine: {'line': b'-- Symlinking: /home/subi/ros2_ws/install/my_slam_package/share/my_slam_package/local_setup.sh\n'}
+[18.257238] (my_slam_package) StdoutLine: {'line': b'-- Symlinking: /home/subi/ros2_ws/install/my_slam_package/share/my_slam_package/local_setup.zsh\n'}
+[18.269891] (my_slam_package) StdoutLine: {'line': b'-- Symlinking: /home/subi/ros2_ws/install/my_slam_package/share/my_slam_package/local_setup.dsv\n'}
+[18.271286] (-) TimerEvent: {}
+[18.281998] (my_slam_package) StdoutLine: {'line': b'-- Symlinking: /home/subi/ros2_ws/install/my_slam_package/share/my_slam_package/package.dsv\n'}
+[18.289551] (my_slam_package) StdoutLine: {'line': b'-- Symlinking: /home/subi/ros2_ws/install/my_slam_package/share/ament_index/resource_index/packages/my_slam_package\n'}
+[18.296904] (my_slam_package) StdoutLine: {'line': b'-- Symlinking: /home/subi/ros2_ws/install/my_slam_package/share/my_slam_package/cmake/my_slam_packageConfig.cmake\n'}
+[18.306440] (my_slam_package) StdoutLine: {'line': b'-- Symlinking: /home/subi/ros2_ws/install/my_slam_package/share/my_slam_package/cmake/my_slam_packageConfig-version.cmake\n'}
+[18.320373] (my_slam_package) StdoutLine: {'line': b'-- Symlinking: /home/subi/ros2_ws/install/my_slam_package/share/my_slam_package/package.xml\n'}
+[18.330631] (my_slam_package) CommandEnded: {'returncode': 0}
+[18.371406] (-) TimerEvent: {}
+[18.384288] (my_slam_package) JobEnded: {'identifier': 'my_slam_package', 'rc': 0}
+[18.409241] (-) EventReactorShutdown: {}

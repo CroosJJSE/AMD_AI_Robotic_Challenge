@@ -1,0 +1,6 @@
+Invoking command in '/home/subi/ros2_ws/build/mono_phone_ros': /usr/bin/cmake /home/subi/ros2_ws/src/mono_phone_ros -DCMAKE_BUILD_TYPE=Debug -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/subi/ros2_ws/install/mono_phone_ros
+Invoked command in '/home/subi/ros2_ws/build/mono_phone_ros' returned '0': /usr/bin/cmake /home/subi/ros2_ws/src/mono_phone_ros -DCMAKE_BUILD_TYPE=Debug -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/subi/ros2_ws/install/mono_phone_ros
+Invoking command in '/home/subi/ros2_ws/build/mono_phone_ros': /usr/bin/cmake --build /home/subi/ros2_ws/build/mono_phone_ros -- -j8 -l8
+Invoked command in '/home/subi/ros2_ws/build/mono_phone_ros' returned '0': /usr/bin/cmake --build /home/subi/ros2_ws/build/mono_phone_ros -- -j8 -l8
+Invoking command in '/home/subi/ros2_ws/build/mono_phone_ros': /usr/bin/cmake --install /home/subi/ros2_ws/build/mono_phone_ros
+Invoked command in '/home/subi/ros2_ws/build/mono_phone_ros' returned '0': /usr/bin/cmake --install /home/subi/ros2_ws/build/mono_phone_ros
