@@ -328,10 +328,8 @@ ros2 run orbslam3_node orbslam3_node --ros-args -p vocab_file:="/path/to/ORBvoc.
 
 Watch the video demonstration of the video feed and SLAM processing:
 
-<video width="640" controls>
-  <source src="https://github.com/CroosJJSE/AMD_AI_Robotic_Challenge/raw/main/images/slam.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/703ff9f7-be84-474a-89a7-616cdf7a5d67
+
 
 ## Cross-Compiling for AArch64
 
