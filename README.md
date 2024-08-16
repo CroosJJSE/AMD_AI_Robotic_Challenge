@@ -330,6 +330,31 @@ Watch the video demonstration of the video feed and SLAM processing:
 
 https://github.com/user-attachments/assets/703ff9f7-be84-474a-89a7-616cdf7a5d67
 
+## How to connect using UoM network(any campus network)
+get a public ip address, subnet mask and gateway address from your campus
+
+update the 
+```
+sudo nano /etc/netplan/50-cloud-init.yaml
+```
+
+
+```
+network:
+    version: 2
+    renderer: networkd
+    ethernets:
+        eth1:
+            dhcp4: no
+            addresses: [your_ip_address/your_subnet_mask]
+            gateway4: your_gateway
+            nameservers:
+                addresses: [8.8.8.8, 8.8.4.4]  # Or your university's DNS
+```
+Apply Netplan Configuration
+```
+sudo netplan apply
+```
 
 ## Cross-Compiling for AArch64
 
@@ -387,6 +412,3 @@ The script performs the following steps:
 3. Compiles the project.
 4. Moves the important `build/myproject` file to the parent directory.
 5. Cleans up the build directory by removing all other generated files.
-```
-
-You can copy the above content and paste it directly into your `README.md` file on GitHub.
